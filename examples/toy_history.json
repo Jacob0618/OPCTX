@@ -1,0 +1,20 @@
+{
+  "sessions": [
+    {
+      "id": "s1",
+      "timestamp": "2026-01-01",
+      "turns": [
+        {"id": "t1", "speaker": "user", "text": "I put my blue notebook on the desk in the study."},
+        {"id": "t2", "speaker": "assistant", "text": "Your blue notebook is on the study desk."}
+      ]
+    },
+    {
+      "id": "s2",
+      "timestamp": "2026-01-02",
+      "turns": [
+        {"id": "t1", "speaker": "user", "text": "I moved the same blue notebook from the study desk to the top shelf in the study."},
+        {"id": "t2", "speaker": "assistant", "text": "The blue notebook is now on the top shelf in the study."}
+      ]
+    }
+  ]
+}

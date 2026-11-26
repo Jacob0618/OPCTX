@@ -1,0 +1,3389 @@
+{
+  "schema": "opctx.source_snapshot_manifest.v1",
+  "date": "2026-11-26",
+  "source_root_label": "original-research-workspace",
+  "source_files_modified": false,
+  "contains_data_or_results": false,
+  "models_called": false,
+  "source_count": 259,
+  "total_source_bytes": 4005461,
+  "entries": [
+    "analysis/hybrid_rag_20261114/data.py",
+    "analysis/hybrid_rag_20261114/lme_isolated_continue.py",
+    "analysis/hybrid_rag_20261114/lme_isolated_continue_r5.py",
+    "analysis/hybrid_rag_20261114/lme_judge_finish_r6.py",
+    "analysis/hybrid_rag_20261114/lme_resume_policy_zero.py",
+    "analysis/hybrid_rag_20261114/lme_resume_two_zeros.py",
+    "analysis/hybrid_rag_20261114/policy_zero.py",
+    "analysis/hybrid_rag_20261114/run.py",
+    "analysis/hybrid_rag_20261114/settle_lme_remaining.py",
+    "analysis/hybrid_rag_20261114/settle_locomo_counts.py",
+    "analysis/hybrid_rag_20261114/stages.py",
+    "analysis/hybrid_rag_20261114/status.py",
+    "analysis/hybrid_rag_20261114/test_data.py",
+    "analysis/hybrid_rag_20261114/test_lme_isolated_continue.py",
+    "analysis/hybrid_rag_20261114/test_lme_isolated_continue_r5.py",
+    "analysis/hybrid_rag_20261114/test_lme_judge_finish_r6.py",
+    "analysis/hybrid_rag_20261114/test_lme_resume_policy_zero.py",
+    "analysis/hybrid_rag_20261114/test_lme_resume_two_zeros.py",
+    "analysis/hybrid_rag_20261114/test_runner.py",
+    "analysis/hybrid_rag_20261114/test_stages.py",
+    "analysis/hybrid_rag_20261114/transport.py",
+    "analysis/opctx_random_links_20261113/diagnose_routing.py",
+    "analysis/opctx_random_links_20261113/report.py",
+    "analysis/opctx_random_links_20261113/resume_policy_zero.py",
+    "analysis/opctx_random_links_20261113/run.py",
+    "analysis/opctx_random_links_20261113/test_random_links.py",
+    "analysis/opctx_random_links_20261113/transport.py",
+    "analysis/opctx_random_links_20261114/math20_run.py",
+    "analysis/opctx_random_links_20261114/randomizer_audit.py",
+    "analysis/opctx_random_links_20261114/randomizer_recall_audit.py",
+    "analysis/opctx_random_links_20261114/report_math20.py",
+    "analysis/opctx_reviewer_20261111/caption_control.py",
+    "analysis/opctx_reviewer_20261111/caption_control_both_report.py",
+    "analysis/opctx_reviewer_20261111/caption_control_compare.py",
+    "analysis/opctx_reviewer_20261111/caption_control_lite_score_resume.py",
+    "analysis/opctx_reviewer_20261111/caption_control_memory_audit.py",
+    "analysis/opctx_reviewer_20261111/caption_control_reader_recovery.py",
+    "analysis/opctx_reviewer_20261111/caption_control_user_disposition.py",
+    "analysis/opctx_reviewer_20261111/e2e/add_locomo_embedding_estimate.py",
+    "analysis/opctx_reviewer_20261111/e2e/embedding_metadata.py",
+    "analysis/opctx_reviewer_20261111/e2e/embedding_sample_diagnostic.py",
+    "analysis/opctx_reviewer_20261111/e2e/embedding_token_diagnostic.py",
+    "analysis/opctx_reviewer_20261111/e2e/lme_e2e.py",
+    "analysis/opctx_reviewer_20261111/e2e/lme_e2e_analyze.py",
+    "analysis/opctx_reviewer_20261111/e2e/lme_embedding_token_diagnostic.py",
+    "analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py",
+    "analysis/opctx_reviewer_20261111/e2e/locomo_e2e_resume.py",
+    "analysis/opctx_reviewer_20261111/e2e/locomo_e2e_resume_v2.py",
+    "analysis/opctx_reviewer_20261111/e2e/mock_locomo_e2e.py",
+    "analysis/opctx_reviewer_20261111/e2e/summarize_locomo_e2e.py",
+    "analysis/opctx_reviewer_20261111/e2e/test_lme_e2e.py",
+    "analysis/opctx_reviewer_20261111/raw_protocol_audit.py",
+    "analysis/opctx_reviewer_20261111/test_caption_control.py",
+    "creamem3/budget_evidence_v1.py",
+    "creamem3/experiments/iterative_memory_20260907/build_multichannel_round_v2.py",
+    "creamem3/experiments/iterative_memory_20260907/candidate_context_policy.py",
+    "creamem3/experiments/iterative_memory_20260907/multichannel_selector_v2.py",
+    "creamem3/experiments/iterative_memory_20260907/numerical_solver_v2.py",
+    "creamem3/experiments/iterative_memory_20260907/query_projections.py",
+    "creamem3/experiments/iterative_memory_20260907/set_selectors.py",
+    "creamem3/experiments/iterative_memory_20260907/test_multichannel_selector_v2.py",
+    "creamem3/experiments/lme_remaining200_20260923/__init__.py",
+    "creamem3/experiments/lme_remaining200_20260923/run.py",
+    "creamem3/experiments/lme_remaining200_20260923/test_run.py",
+    "creamem3/experiments/locomo_cumulative20_20260917/run.py",
+    "creamem3/experiments/locomo_cumulative20_20260917/test_core.py",
+    "creamem3/experiments/locomo_math20_10_20260917/core.py",
+    "creamem3/experiments/locomo_math20_10_20260917/run.py",
+    "creamem3/experiments/locomo_math20_10_20260917/test_core.py",
+    "creamem3/experiments/memeye_lite_ablation_20260923/__init__.py",
+    "creamem3/experiments/memeye_lite_ablation_20260923/run.py",
+    "creamem3/experiments/memeye_lite_ablation_20260923/runtime.py",
+    "creamem3/experiments/memeye_lite_ablation_20260923/test_run.py",
+    "creamem3/experiments/review_followup_20260926/analyze.py",
+    "creamem3/experiments/review_followup_20260926/judge_robustness.py",
+    "creamem3/experiments/review_followup_20260926/locomo_evidence_audit.py",
+    "creamem3/experiments/review_followup_20260926/locomo_view_perturbation.py",
+    "creamem3/experiments/review_followup_20260926/repair_judge.py",
+    "creamem3/experiments/review_followup_20260926/report.py",
+    "creamem3/experiments/review_followup_20260926/run.py",
+    "creamem3/experiments/review_followup_20260926/selector_proxy_audit.py",
+    "creamem3/experiments/review_followup_20260926/solver_sensitivity.py",
+    "creamem3/experiments/review_followup_20260926/test_controls.py",
+    "creamem3/experiments/review_followup_20260926/verify.py",
+    "creamem3/experiments/review_main_align_20260926/locomo.py",
+    "creamem3/focused_answer_reader_v11.py",
+    "creamem3/frozen_sources/locomo81_graph_memory_v2.py",
+    "creamem3/graph_memory_v2.py",
+    "creamem3/lme_clean_writer_v1.py",
+    "creamem3/lme_opctx_v1.py",
+    "creamem3/lme_opctx_v2.py",
+    "creamem3/lme_opctx_v2_b3_scaled_facts.py",
+    "creamem3/memeye_adapter_v9.py",
+    "creamem3/online_memory_v3.py",
+    "creamem3/online_memory_v4.py",
+    "creamem3/online_memory_v4_streaming.py",
+    "creamem3/online_operation_context_v8.py",
+    "creamem3/prompts_v2.py",
+    "creamem3/run_lme_clean100_v1.py",
+    "creamem3/run_online_operation_full_v8.py",
+    "creamem3/semantic_context_v8.py",
+    "creamem3/semantic_query_planner_v6.py",
+    "creamem3/strict_semantic_planner_v8.py",
+    "eval/gemini_client.py",
+    "eval/judge.py",
+    "eval/prompts.py"
+  ],
+  "files": [
+    {
+      "source": "analysis/hybrid_rag_20261114/data.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/data.py",
+      "sha256": "cf17a9beec0a81b4aa8813824184f93e3f82d51fbb2286787d4d04a62fb07b5d",
+      "size_bytes": 14869,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/run.py",
+        "analysis/hybrid_rag_20261114/settle_locomo_counts.py",
+        "analysis/hybrid_rag_20261114/test_data.py",
+        "analysis/hybrid_rag_20261114/test_runner.py"
+      ]
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/lme_isolated_continue.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/lme_isolated_continue.py",
+      "sha256": "2bc970eccd0494bde59ed8f230a251964681fa9817abdfb78c3f11ca751f7298",
+      "size_bytes": 25981,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/lme_isolated_continue_r5.py",
+        "analysis/hybrid_rag_20261114/test_lme_isolated_continue.py"
+      ]
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/lme_isolated_continue_r5.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/lme_isolated_continue_r5.py",
+      "sha256": "e479d62f1f828652737d55039f8081c05345a367c68e89125878febfb9859650",
+      "size_bytes": 13313,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/lme_judge_finish_r6.py",
+        "analysis/hybrid_rag_20261114/test_lme_isolated_continue_r5.py"
+      ]
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/lme_judge_finish_r6.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/lme_judge_finish_r6.py",
+      "sha256": "3a752adf974fd6ad459efd6e2da350bc7a3a0749319e211ec0bb46b9daba89bd",
+      "size_bytes": 17896,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/test_lme_judge_finish_r6.py"
+      ]
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/lme_resume_policy_zero.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/lme_resume_policy_zero.py",
+      "sha256": "4150a92d3d3d3908f31392b6350d6234611f7a378ea7995eb8189a219aa07283",
+      "size_bytes": 19349,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/lme_isolated_continue.py",
+        "analysis/hybrid_rag_20261114/lme_resume_two_zeros.py",
+        "analysis/hybrid_rag_20261114/test_lme_resume_policy_zero.py"
+      ]
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/lme_resume_two_zeros.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/lme_resume_two_zeros.py",
+      "sha256": "143a0c646cc332ad0155868c8589532b7fee3472c1603bbc8714ce06cf30019c",
+      "size_bytes": 17968,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/lme_isolated_continue.py",
+        "analysis/hybrid_rag_20261114/test_lme_resume_two_zeros.py"
+      ]
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/policy_zero.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/policy_zero.py",
+      "sha256": "b5655860820ba85ac5af22b834b386f68838a86aa1337c5f92511fa8aae1f852",
+      "size_bytes": 6059,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/run.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/run.py",
+      "sha256": "b9a84fde6476f977c0f2f0acbb82c9b4909799cb0fcd5e7826c9a4b3b7dcd006",
+      "size_bytes": 22059,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/lme_isolated_continue.py",
+        "analysis/hybrid_rag_20261114/lme_judge_finish_r6.py",
+        "analysis/hybrid_rag_20261114/lme_resume_policy_zero.py",
+        "analysis/hybrid_rag_20261114/lme_resume_two_zeros.py",
+        "analysis/hybrid_rag_20261114/test_runner.py"
+      ]
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/settle_lme_remaining.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/settle_lme_remaining.py",
+      "sha256": "535fcaa5c6eda178f0c8aa2616808dd5fa5115b3e432df5377d86a843584bb3a",
+      "size_bytes": 5733,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/settle_locomo_counts.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/settle_locomo_counts.py",
+      "sha256": "7b60928ae814d617416c929b9a6eb88def43a2ff57e190128bb7abe7a23bf65d",
+      "size_bytes": 5827,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/stages.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/stages.py",
+      "sha256": "f1a1a1ddae53a39d74794ec90279e79601091e600cfdb007fc8fbd3378db73bc",
+      "size_bytes": 15889,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/lme_isolated_continue.py",
+        "analysis/hybrid_rag_20261114/lme_judge_finish_r6.py",
+        "analysis/hybrid_rag_20261114/lme_resume_policy_zero.py",
+        "analysis/hybrid_rag_20261114/lme_resume_two_zeros.py",
+        "analysis/hybrid_rag_20261114/run.py",
+        "analysis/hybrid_rag_20261114/test_runner.py",
+        "analysis/hybrid_rag_20261114/test_stages.py"
+      ]
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/status.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/status.py",
+      "sha256": "959bc6049e0d16f7960eb06944c9149da1bb35c64f6461697b50dde7e4798bc0",
+      "size_bytes": 53295,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/test_data.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/test_data.py",
+      "sha256": "d83ad1567ee6134606958f94d50df02210bf55f8da5634c6442f8d9a9e3875d6",
+      "size_bytes": 8709,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/test_lme_isolated_continue.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/test_lme_isolated_continue.py",
+      "sha256": "bb6c6fa2cbd233234dba4a6ea45da6e636893fd876411584713012ad1c48d45c",
+      "size_bytes": 6654,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/test_lme_isolated_continue_r5.py"
+      ]
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/test_lme_isolated_continue_r5.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/test_lme_isolated_continue_r5.py",
+      "sha256": "7df68d969df93e0999d7585e7ac41df107ec80638979616fbaa526fc7b9ea700",
+      "size_bytes": 5279,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/test_lme_judge_finish_r6.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/test_lme_judge_finish_r6.py",
+      "sha256": "fa71e6184cf755a4e5f5759b3160f76eeab4b86919d3836fb30967cbb1415c75",
+      "size_bytes": 3607,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/test_lme_resume_policy_zero.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/test_lme_resume_policy_zero.py",
+      "sha256": "0b0c68033b3f35b6e0bbb7917b2845a23bf16e44066037b3e2700ac2d05fa365",
+      "size_bytes": 4188,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/test_lme_resume_two_zeros.py"
+      ]
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/test_lme_resume_two_zeros.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/test_lme_resume_two_zeros.py",
+      "sha256": "f3553e761f9781021dc59a877bf46c197f7047b998e4d6f4ac81b522ff1a6e7e",
+      "size_bytes": 3488,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/test_runner.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/test_runner.py",
+      "sha256": "c310da6c2140eb643caaa7ccc8b6739061a6e7c275266c16dba5f598011e7d8c",
+      "size_bytes": 4273,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/test_stages.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/test_stages.py",
+      "sha256": "072dd827f174f769fca38afc3609257838022687fbd6651f0f462a0dd9e20131",
+      "size_bytes": 5316,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/hybrid_rag_20261114/transport.py",
+      "destination": "research_snapshot/analysis/hybrid_rag_20261114/transport.py",
+      "sha256": "59bffe8e64c2d5939ba7e89e8481abf7cd3d0a3449643654a2f67bd19c2f38b2",
+      "size_bytes": 11022,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/lme_isolated_continue.py",
+        "analysis/hybrid_rag_20261114/lme_judge_finish_r6.py",
+        "analysis/hybrid_rag_20261114/lme_resume_policy_zero.py",
+        "analysis/hybrid_rag_20261114/lme_resume_two_zeros.py",
+        "analysis/hybrid_rag_20261114/run.py"
+      ]
+    },
+    {
+      "source": "analysis/opctx_random_links_20261113/diagnose_routing.py",
+      "destination": "research_snapshot/analysis/opctx_random_links_20261113/diagnose_routing.py",
+      "sha256": "bad33228149f13cf901caa00ca73514cc155bb8f10dd3f2c429dd9f24d785e81",
+      "size_bytes": 17630,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_random_links_20261113/report.py",
+      "destination": "research_snapshot/analysis/opctx_random_links_20261113/report.py",
+      "sha256": "bde0882e69a46ad28eba70bbb56a4ee0edc3138d6b2ec7c99616eb504a6afbc3",
+      "size_bytes": 20853,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_random_links_20261113/resume_policy_zero.py",
+      "destination": "research_snapshot/analysis/opctx_random_links_20261113/resume_policy_zero.py",
+      "sha256": "1b40ba5042e20d9e73c572d93dd0d87dd729eae831c6231fae59e1406cc42359",
+      "size_bytes": 5897,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_random_links_20261113/run.py",
+      "destination": "research_snapshot/analysis/opctx_random_links_20261113/run.py",
+      "sha256": "2395481dc6d459ac7df96cfefe09f596cc1e73255211247304490bb424120b8a",
+      "size_bytes": 12926,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/stages.py",
+        "analysis/opctx_random_links_20261114/math20_run.py",
+        "analysis/opctx_random_links_20261114/randomizer_recall_audit.py"
+      ]
+    },
+    {
+      "source": "analysis/opctx_random_links_20261113/test_random_links.py",
+      "destination": "research_snapshot/analysis/opctx_random_links_20261113/test_random_links.py",
+      "sha256": "191cee1beb61e717b1115633bd381543b42f5af622266ac4a1c56eea00064cbe",
+      "size_bytes": 12266,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_random_links_20261113/run.py"
+      ]
+    },
+    {
+      "source": "analysis/opctx_random_links_20261113/transport.py",
+      "destination": "research_snapshot/analysis/opctx_random_links_20261113/transport.py",
+      "sha256": "cfa6d4c1f86d85bfe3909a23facbad1c51746640ea6b3e1b9c5931eeb865f4c0",
+      "size_bytes": 18811,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/transport.py",
+        "analysis/opctx_random_links_20261113/resume_policy_zero.py",
+        "analysis/opctx_random_links_20261113/run.py",
+        "analysis/opctx_random_links_20261114/math20_run.py"
+      ]
+    },
+    {
+      "source": "analysis/opctx_random_links_20261114/math20_run.py",
+      "destination": "research_snapshot/analysis/opctx_random_links_20261114/math20_run.py",
+      "sha256": "c50440e94162d3b0eaba1cf6288972ded426653ecd2fc026c7efff278bfeab32",
+      "size_bytes": 27566,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_random_links_20261114/randomizer_audit.py",
+      "destination": "research_snapshot/analysis/opctx_random_links_20261114/randomizer_audit.py",
+      "sha256": "f1f6955256b70c47c997f54e8442fa7178094bd07198838e59b59284a0279fcb",
+      "size_bytes": 9703,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_random_links_20261114/randomizer_recall_audit.py"
+      ]
+    },
+    {
+      "source": "analysis/opctx_random_links_20261114/randomizer_recall_audit.py",
+      "destination": "research_snapshot/analysis/opctx_random_links_20261114/randomizer_recall_audit.py",
+      "sha256": "62b1bdbe78c373e07a4efb07792fb28e92e0336eaa7efd6ba24327fd3ff3a26a",
+      "size_bytes": 9461,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_random_links_20261114/report_math20.py",
+      "destination": "research_snapshot/analysis/opctx_random_links_20261114/report_math20.py",
+      "sha256": "1ab4368c454e3b0d5e6db68ab410f4833dd0910a088d0d9ae1bd214189876ca8",
+      "size_bytes": 29531,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/caption_control.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/caption_control.py",
+      "sha256": "29cd5f333d00a515e8d270c549f0374c222cc0047d13e4704041dcf0b6b239fd",
+      "size_bytes": 25114,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/caption_control_both_report.py",
+        "analysis/opctx_reviewer_20261111/caption_control_compare.py",
+        "analysis/opctx_reviewer_20261111/caption_control_lite_score_resume.py",
+        "analysis/opctx_reviewer_20261111/caption_control_memory_audit.py",
+        "analysis/opctx_reviewer_20261111/caption_control_reader_recovery.py",
+        "analysis/opctx_reviewer_20261111/caption_control_user_disposition.py",
+        "analysis/opctx_reviewer_20261111/test_caption_control.py"
+      ]
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/caption_control_both_report.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/caption_control_both_report.py",
+      "sha256": "d034c480bc7a487c866597981d34f9d38d37b887ec0c2f984388e1c0c7ef02e1",
+      "size_bytes": 9191,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/caption_control_compare.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/caption_control_compare.py",
+      "sha256": "80b070c8c867a9e3de39bda26dfca436fe0de971faef4444c3bde01536f92126",
+      "size_bytes": 7672,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/caption_control_lite_score_resume.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/caption_control_lite_score_resume.py",
+      "sha256": "c9c1c2d9db5cc7b92bc26ec35611ea4f8605e53581825861503f013efee36cea",
+      "size_bytes": 7717,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/caption_control_memory_audit.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/caption_control_memory_audit.py",
+      "sha256": "0119933cfb718de414a334abab550232740f1528375d1a91f325ee58ac98ee6f",
+      "size_bytes": 8297,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/caption_control_reader_recovery.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/caption_control_reader_recovery.py",
+      "sha256": "9e30eb340d8586fd0109dba646e66a33b6353ce0a75791762adbd652a0db91be",
+      "size_bytes": 9568,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/caption_control_user_disposition.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/caption_control_user_disposition.py",
+      "sha256": "efb0664ac10e31b04459ab369d30a885c764057963fa9983023a108ad0bf3cc7",
+      "size_bytes": 2907,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/add_locomo_embedding_estimate.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/add_locomo_embedding_estimate.py",
+      "sha256": "7df11e3cb6cde20851629e56cc0f1edd553f591ae2292ec7b71a7a312dda2b70",
+      "size_bytes": 7904,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/embedding_metadata.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/embedding_metadata.py",
+      "sha256": "2e2b33e64fb024c104303e4b8e22cd2525be82cc56853efbc2fb5c7d0f27cf0d",
+      "size_bytes": 770,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/embedding_sample_diagnostic.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/embedding_sample_diagnostic.py",
+      "sha256": "15d9d55567bcfbb772361a487b902c6db9dfe763ddc26838f047495f68f48fd2",
+      "size_bytes": 7823,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/embedding_token_diagnostic.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/embedding_token_diagnostic.py",
+      "sha256": "0a25d20955025c4546195c339e0af1a32862ae246240f97bbd8fd0e43f4b62c0",
+      "size_bytes": 7602,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/e2e/embedding_sample_diagnostic.py"
+      ]
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/lme_e2e.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/lme_e2e.py",
+      "sha256": "24f055f00bb24c379857c7ab0846eb88cc82fa8e862f060f4d80c5302c218efe",
+      "size_bytes": 23009,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/lme_e2e_analyze.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/lme_e2e_analyze.py",
+      "sha256": "fe98d04f7824e5d2f7c159b915f324cdfebaee9a582ee7ffd162757e1f523918",
+      "size_bytes": 13023,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/lme_embedding_token_diagnostic.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/lme_embedding_token_diagnostic.py",
+      "sha256": "c280d2e1c59afdf1c4d1d3662032fe34ac968a7d5dac7343216cc2796a73dff5",
+      "size_bytes": 3011,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/e2e/embedding_sample_diagnostic.py"
+      ]
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py",
+      "sha256": "deede2a05ae0e3db0b85db49fe7ead1f3765b1ada7b7f76fb3c2798b9b266717",
+      "size_bytes": 28889,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/stages.py",
+        "analysis/opctx_random_links_20261113/run.py"
+      ]
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/locomo_e2e_resume.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/locomo_e2e_resume.py",
+      "sha256": "4e0da9bb22706544013863adef872f51ec22cfba2e6a6846b7f1ee4042702a88",
+      "size_bytes": 12435,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/locomo_e2e_resume_v2.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/locomo_e2e_resume_v2.py",
+      "sha256": "e1051dea5c96e03cf5126116bd51dcaff2f97a73f9692a09dc695dbd8d46b1db",
+      "size_bytes": 15402,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/mock_locomo_e2e.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/mock_locomo_e2e.py",
+      "sha256": "52051041d7cc8d56b1ada54502ec1af2a9596ce4cb1f787fc3e4f7b5a8632931",
+      "size_bytes": 3115,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/summarize_locomo_e2e.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/summarize_locomo_e2e.py",
+      "sha256": "eebafac748b805975bc0782a79ee3f1569ed4c38486ef4bc0e201ed9edee4b18",
+      "size_bytes": 9179,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/e2e/test_lme_e2e.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/e2e/test_lme_e2e.py",
+      "sha256": "45d0f3a82739c45efc55be9a3327978da44f85963cda522fa7878084fbb81cba",
+      "size_bytes": 4666,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/raw_protocol_audit.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/raw_protocol_audit.py",
+      "sha256": "e8a1dbaf4fe8926bea841fce70640bc6c7f1116f01c09c6aa3fa83cf130c24cd",
+      "size_bytes": 5886,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "analysis/opctx_reviewer_20261111/test_caption_control.py",
+      "destination": "research_snapshot/analysis/opctx_reviewer_20261111/test_caption_control.py",
+      "sha256": "0063304937bd1c44cf4e6ba51619b802cbddb2c516ae96cc7f634da6021af548",
+      "size_bytes": 4741,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/__init__.py",
+      "destination": "research_snapshot/creamem3/__init__.py",
+      "sha256": "47208c0a41ec0a74b2778563ca498593d34ee732b6c1d531819ba093f5d871ed",
+      "size_bytes": 104,
+      "selection": "static_dependency",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/stages.py",
+        "analysis/opctx_reviewer_20261111/e2e/lme_e2e.py",
+        "analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py",
+        "analysis/opctx_reviewer_20261111/e2e/test_lme_e2e.py",
+        "creamem3/__init__.py",
+        "creamem3/analysis_offline_semantic_subtype_screen_v8.py",
+        "creamem3/audit_lme_opctx_materializer_v1.py",
+        "creamem3/budget_evidence_v1.py",
+        "creamem3/build_executor_v19.py",
+        "creamem3/experiments/aligned_selector_ablations_20260913/__init__.py",
+        "creamem3/experiments/aligned_selector_ablations_20260913/core.py",
+        "creamem3/experiments/aligned_selector_ablations_20260913/run.py",
+        "creamem3/experiments/component_ablations_20260911/__init__.py",
+        "creamem3/experiments/component_ablations_20260911/locomo_v3.py",
+        "creamem3/experiments/component_ablations_20260911/math_selector.py",
+        "creamem3/experiments/component_ablations_20260911/offline_engine_v2.py",
+        "creamem3/experiments/component_ablations_20260911/runtime.py",
+        "creamem3/experiments/component_ablations_20260911/runtime_v2.py",
+        "creamem3/experiments/component_ablations_20260911/transport.py",
+        "creamem3/experiments/full_budget_20260907/observation_order.py",
+        "creamem3/experiments/full_budget_20260907/run_memeye_math.py",
+        "creamem3/experiments/full_budget_20260907/summarize_memeye_math.py",
+        "creamem3/experiments/iterative_memory_20260907/build_multichannel_round_v2.py",
+        "creamem3/experiments/iterative_memory_20260907/candidate_context_policy.py",
+        "creamem3/experiments/iterative_memory_20260907/multichannel_selector_v2.py",
+        "creamem3/experiments/iterative_memory_20260907/numerical_solver_v2.py",
+        "creamem3/experiments/iterative_memory_20260907/prepare_variants.py",
+        "creamem3/experiments/iterative_memory_20260907/projection_embeddings.py",
+        "creamem3/experiments/iterative_memory_20260907/query_projections.py",
+        "creamem3/experiments/iterative_memory_20260907/run_round.py",
+        "creamem3/experiments/iterative_memory_20260907/set_selectors.py",
+        "creamem3/experiments/iterative_memory_20260907/test_multichannel_selector_v2.py",
+        "creamem3/experiments/lme_remaining200_20260923/__init__.py",
+        "creamem3/experiments/lme_remaining200_20260923/run.py",
+        "creamem3/experiments/lme_remaining200_20260923/test_run.py",
+        "creamem3/experiments/locomo_cumulative20_20260917/run.py",
+        "creamem3/experiments/locomo_cumulative20_20260917/test_core.py",
+        "creamem3/experiments/locomo_g35lite_20260908/run.py",
+        "creamem3/experiments/locomo_g35lite_20260908/runtime.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/__init__.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_audit.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_eval.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/relation_read.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/run.py",
+        "creamem3/experiments/locomo_math20_10_20260917/core.py",
+        "creamem3/experiments/locomo_math20_10_20260917/run.py",
+        "creamem3/experiments/locomo_math20_10_20260917/test_core.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/__init__.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/core.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/run.py",
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/__init__.py",
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/core.py",
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/run.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/enum_repair.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/enum_resume.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/full.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/recheck_id.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/recover.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/writer.py",
+        "creamem3/experiments/locomo_narrow_rerank_ablations_20260913/core.py",
+        "creamem3/experiments/locomo_narrow_rerank_ablations_20260913/run.py",
+        "creamem3/experiments/locomo_offline_20260908/offline_engine_v2.py",
+        "creamem3/experiments/locomo_offline_20260908/shared_runtime.py",
+        "creamem3/experiments/locomo_online_only_20260909/audit.py",
+        "creamem3/experiments/locomo_online_only_20260909/prompts.py",
+        "creamem3/experiments/locomo_online_only_20260909/result_analysis.py",
+        "creamem3/experiments/locomo_online_only_20260909/run.py",
+        "creamem3/experiments/locomo_online_only_20260909/runtime.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/__init__.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/dnf_decoder.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/incomplete_http_read_adapter.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/minimal_event_repair.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/nested_proof_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/ordinal_proof_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/priority_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/proof_admission.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/proof_audit.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/proof_factorization.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/repeat_four.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_event_state.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_state_intake_v4.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/view_scope_proofs.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/core.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/run.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/test_core.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/__init__.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_compact_schema.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_roles_v3.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/run.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/runtime.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/selector.py",
+        "creamem3/experiments/locomo_top5_budget_20260910/__init__.py",
+        "creamem3/experiments/locomo_top5_budget_20260910/run.py",
+        "creamem3/experiments/mec_transfer_20260906/run_locomo.py",
+        "creamem3/experiments/mec_transfer_20260906/run_memeye.py",
+        "creamem3/experiments/mec_transfer_20260906/summarize_memeye.py",
+        "creamem3/experiments/memeye_backbones_20260921/runtime.py",
+        "creamem3/experiments/memeye_baselines_20260920/run.py",
+        "creamem3/experiments/memeye_baselines_remaining_20260920/transport.py",
+        "creamem3/experiments/memeye_budget_online_20260914/__init__.py",
+        "creamem3/experiments/memeye_budget_online_20260914/config.py",
+        "creamem3/experiments/memeye_evidence_20260914/__init__.py",
+        "creamem3/experiments/memeye_evidence_20260914/core.py",
+        "creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+        "creamem3/experiments/memeye_evidence_20260914/ledger.py",
+        "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py",
+        "creamem3/experiments/memeye_failure_online_20260914/__init__.py",
+        "creamem3/experiments/memeye_failure_online_20260914/audit.py",
+        "creamem3/experiments/memeye_failure_online_20260914/run.py",
+        "creamem3/experiments/memeye_failure_online_20260914/run_compat.py",
+        "creamem3/experiments/memeye_failure_online_20260914/selection.py",
+        "creamem3/experiments/memeye_failure_online_20260914/verify.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/__init__.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/run.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/runtime.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/test_run.py",
+        "creamem3/experiments/memeye_lite_ablation_limits_20260923/__init__.py",
+        "creamem3/experiments/memeye_lite_ablation_limits_20260923/run.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_20260923/__init__.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_20260923/run.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_ordered_20260923/__init__.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_ordered_20260923/run.py",
+        "creamem3/experiments/memeye_lite_score_repair_20260923/__init__.py",
+        "creamem3/experiments/memeye_lite_score_repair_20260923/run.py",
+        "creamem3/experiments/memeye_online_state_20260914/__init__.py",
+        "creamem3/experiments/memeye_online_state_20260914/audit.py",
+        "creamem3/experiments/memeye_online_state_20260914/build.py",
+        "creamem3/experiments/memeye_online_state_20260914/intake.py",
+        "creamem3/experiments/memeye_online_state_20260914/read_api.py",
+        "creamem3/experiments/memeye_online_state_20260914/reader_bridge.py",
+        "creamem3/experiments/memeye_online_state_20260914/state.py",
+        "creamem3/experiments/memeye_resume_20260921/network.py",
+        "creamem3/experiments/memeye_visual_baselines_20260920/native.py",
+        "creamem3/experiments/online_revision_20260915/__init__.py",
+        "creamem3/experiments/online_revision_20260915/engine.py",
+        "creamem3/experiments/online_revision_20260915/engine_v3.py",
+        "creamem3/experiments/online_revision_20260915/engine_v4.py",
+        "creamem3/experiments/online_revision_20260915/engine_v8.py",
+        "creamem3/experiments/online_revision_20260915/evidence_units.py",
+        "creamem3/experiments/online_revision_20260915/generation.py",
+        "creamem3/experiments/online_revision_20260915/generation_v8.py",
+        "creamem3/experiments/online_revision_20260915/probe.py",
+        "creamem3/experiments/online_revision_20260915/transport.py",
+        "creamem3/experiments/review_fast_20260926/audit.py",
+        "creamem3/experiments/review_fast_20260926/run.py",
+        "creamem3/experiments/review_followup_20260926/analyze.py",
+        "creamem3/experiments/review_followup_20260926/judge_robustness.py",
+        "creamem3/experiments/review_followup_20260926/locomo_evidence_audit.py",
+        "creamem3/experiments/review_followup_20260926/locomo_view_perturbation.py",
+        "creamem3/experiments/review_followup_20260926/repair_judge.py",
+        "creamem3/experiments/review_followup_20260926/report.py",
+        "creamem3/experiments/review_followup_20260926/run.py",
+        "creamem3/experiments/review_followup_20260926/selector_proxy_audit.py",
+        "creamem3/experiments/review_followup_20260926/solver_sensitivity.py",
+        "creamem3/experiments/review_followup_20260926/test_controls.py",
+        "creamem3/experiments/review_followup_20260926/verify.py",
+        "creamem3/experiments/review_main_align_20260926/locomo.py",
+        "creamem3/focused_answer_reader_v11.py",
+        "creamem3/frozen_sources/locomo81_graph_memory_v2.py",
+        "creamem3/graph_memory_v2.py",
+        "creamem3/lme_clean_selection_v1.py",
+        "creamem3/lme_clean_writer_v1.py",
+        "creamem3/lme_opctx_b1_v1.py",
+        "creamem3/lme_opctx_v1.py",
+        "creamem3/lme_opctx_v2.py",
+        "creamem3/lme_opctx_v2_b3_scaled_facts.py",
+        "creamem3/locomo_all.py",
+        "creamem3/memeye_adapter_v9.py",
+        "creamem3/memeye_g35_runtime_v19.py",
+        "creamem3/memeye_matched_ingest_v19.py",
+        "creamem3/memeye_mec50_offline_v1.py",
+        "creamem3/memeye_official_embedding_batch_runtime_v19_1.py",
+        "creamem3/official_g25_build_runtime_adapter_v19.py",
+        "creamem3/official_g25_runtime_adapter_v19.py",
+        "creamem3/offline_context_v6.py",
+        "creamem3/offline_operation_context_v8.py",
+        "creamem3/online_memory_v3.py",
+        "creamem3/online_memory_v4.py",
+        "creamem3/online_memory_v4_streaming.py",
+        "creamem3/online_operation_context_v8.py",
+        "creamem3/phase1_g35_caption_reliable_r3_v19.py",
+        "creamem3/predict_executor_v19.py",
+        "creamem3/prompts.py",
+        "creamem3/prompts_v2.py",
+        "creamem3/retrieval_ablation_v4.py",
+        "creamem3/run_conv26_v2.py",
+        "creamem3/run_lme_clean100_v1.py",
+        "creamem3/run_lme_opctx100_v1.py",
+        "creamem3/run_lme_opctx100_v2.py",
+        "creamem3/run_lme_opctx400_v2.py",
+        "creamem3/run_memeye_full_arch_matrix_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py",
+        "creamem3/run_memeye_mec50_direct_gemini_v1.py",
+        "creamem3/run_memeye_mec50_routing_only_raw_gemini_v1.py",
+        "creamem3/run_memeye_thinking_predict_fast_v19.py",
+        "creamem3/run_memeye_v9.py",
+        "creamem3/run_offline_operation_full_v8.py",
+        "creamem3/run_online_operation_full_v8.py",
+        "creamem3/run_semantic_context_full_v8.py",
+        "creamem3/score_executor_v19.py",
+        "creamem3/semantic_context_v8.py",
+        "creamem3/semantic_query_planner_v6.py",
+        "creamem3/strict_semantic_planner_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/analysis_offline_semantic_subtype_screen_v8.py",
+      "destination": "research_snapshot/creamem3/analysis_offline_semantic_subtype_screen_v8.py",
+      "sha256": "5cef6f903ba80f7a0fe9bc4826303e8d5c45b97c9aa2dfe9807594eafdf5a220",
+      "size_bytes": 22283,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_memeye_v9.py"
+      ]
+    },
+    {
+      "source": "creamem3/audit_lme_opctx_materializer_v1.py",
+      "destination": "research_snapshot/creamem3/audit_lme_opctx_materializer_v1.py",
+      "sha256": "15ecd779d11a6d9634bf5b47c06b30eb771087540e2ce12effaea580e59dda3a",
+      "size_bytes": 5600,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_lme_opctx100_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/budget_evidence_v1.py",
+      "destination": "research_snapshot/creamem3/budget_evidence_v1.py",
+      "sha256": "475e1c379b8a264ff4e3e6613948e984498a7d16d4a0304630c97a0b56fa52dc",
+      "size_bytes": 14416,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/math_selector.py",
+        "creamem3/experiments/full_budget_20260907/run_memeye_math.py",
+        "creamem3/experiments/iterative_memory_20260907/multichannel_selector_v2.py",
+        "creamem3/experiments/iterative_memory_20260907/test_multichannel_selector_v2.py",
+        "creamem3/experiments/mec_transfer_20260906/run_locomo.py"
+      ]
+    },
+    {
+      "source": "creamem3/build_executor_v19.py",
+      "destination": "research_snapshot/creamem3/build_executor_v19.py",
+      "sha256": "d60319c2e9769196626457c4b1a5258d58775ac13540950a759e1090aea1904c",
+      "size_bytes": 254312,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_ablation_20260923/run.py",
+        "creamem3/phase1_g35_caption_reliable_r3_v19.py",
+        "creamem3/predict_executor_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py",
+        "creamem3/run_memeye_thinking_predict_fast_v19.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/aligned_selector_ablations_20260913/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/aligned_selector_ablations_20260913/__init__.py",
+      "sha256": "698e7920ff8c61f6284c28113b7840d5cf1a8b3f7e99d02b2bbeaf0c2c6fad23",
+      "size_bytes": 79,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/aligned_selector_ablations_20260913/__init__.py",
+        "creamem3/experiments/aligned_selector_ablations_20260913/core.py",
+        "creamem3/experiments/aligned_selector_ablations_20260913/run.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/core.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/aligned_selector_ablations_20260913/core.py",
+      "destination": "research_snapshot/creamem3/experiments/aligned_selector_ablations_20260913/core.py",
+      "sha256": "a833c38971f08bc38d5d68dc8b1b0be14f81d52c1019ddd1819cf8ca72d644e9",
+      "size_bytes": 4935,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/aligned_selector_ablations_20260913/run.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/core.py",
+        "creamem3/experiments/memeye_failure_online_20260914/selection.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/aligned_selector_ablations_20260913/run.py",
+      "destination": "research_snapshot/creamem3/experiments/aligned_selector_ablations_20260913/run.py",
+      "sha256": "528f20130da316228f7d13931a436848fdccb319eeece2ad8339c509cb024622",
+      "size_bytes": 9791,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/component_ablations_20260911/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/component_ablations_20260911/__init__.py",
+      "sha256": "ef1e2242b8aef7e595b1e34c962a61fd44bde0c85a3159dc84b74db4d6ee390c",
+      "size_bytes": 78,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/__init__.py",
+        "creamem3/experiments/component_ablations_20260911/locomo_v3.py",
+        "creamem3/experiments/component_ablations_20260911/math_selector.py",
+        "creamem3/experiments/component_ablations_20260911/offline_engine_v2.py",
+        "creamem3/experiments/component_ablations_20260911/runtime.py",
+        "creamem3/experiments/component_ablations_20260911/runtime_v2.py",
+        "creamem3/experiments/component_ablations_20260911/transport.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/core.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/run.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/run.py",
+        "creamem3/experiments/memeye_budget_online_20260914/config.py",
+        "creamem3/experiments/memeye_failure_online_20260914/selection.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/component_ablations_20260911/locomo_v3.py",
+      "destination": "research_snapshot/creamem3/experiments/component_ablations_20260911/locomo_v3.py",
+      "sha256": "010ebac854e64eb64a7dd8ce2df50af3524c2e6fb0669e070a10fab74773654f",
+      "size_bytes": 19129,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_math_narrow_20260911/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/component_ablations_20260911/math_selector.py",
+      "destination": "research_snapshot/creamem3/experiments/component_ablations_20260911/math_selector.py",
+      "sha256": "fbe4c9a5a1a0df45fc56baa82757310fdf4b72821b1ee66ce33d8cbc08bc6f4d",
+      "size_bytes": 14244,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_math_narrow_20260911/core.py",
+        "creamem3/experiments/memeye_budget_online_20260914/config.py",
+        "creamem3/experiments/memeye_failure_online_20260914/selection.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/component_ablations_20260911/offline_engine_v2.py",
+      "destination": "research_snapshot/creamem3/experiments/component_ablations_20260911/offline_engine_v2.py",
+      "sha256": "6fa8eba8b8b7536940f4796115c2c29265c25b03967b06227169e94f0216c23e",
+      "size_bytes": 7692,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/locomo_v3.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/component_ablations_20260911/runtime.py",
+      "destination": "research_snapshot/creamem3/experiments/component_ablations_20260911/runtime.py",
+      "sha256": "297a07600e481f5004ae49442adcf1553b8f461618c221b2879629882d28f8d7",
+      "size_bytes": 4293,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/runtime_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/component_ablations_20260911/runtime_v2.py",
+      "destination": "research_snapshot/creamem3/experiments/component_ablations_20260911/runtime_v2.py",
+      "sha256": "47b56e982e32f76b69af266bc08a39d144d77c2d42dcfa94754b80f7a98b18c5",
+      "size_bytes": 813,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/locomo_v3.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/run.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/component_ablations_20260911/transport.py",
+      "destination": "research_snapshot/creamem3/experiments/component_ablations_20260911/transport.py",
+      "sha256": "a4d963b83a34d52da38ad3da12ea4a295f5c812ebcbb97b9203a560433f37110",
+      "size_bytes": 10349,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/locomo_v3.py",
+        "creamem3/experiments/component_ablations_20260911/runtime.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/full_budget_20260907/observation_order.py",
+      "destination": "research_snapshot/creamem3/experiments/full_budget_20260907/observation_order.py",
+      "sha256": "b10619d651b973e0e19a93775bdf4df6843f6586fc5676d8eb04f934edbcfa70",
+      "size_bytes": 16343,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/iterative_memory_20260907/run_round.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/full_budget_20260907/run_memeye_math.py",
+      "destination": "research_snapshot/creamem3/experiments/full_budget_20260907/run_memeye_math.py",
+      "sha256": "28a0867230ab68749846ece2cdb5329e67e7d0576eaf092beecb57711f0777d2",
+      "size_bytes": 10577,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/full_budget_20260907/summarize_memeye_math.py",
+        "creamem3/experiments/iterative_memory_20260907/prepare_variants.py",
+        "creamem3/experiments/iterative_memory_20260907/run_round.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/full_budget_20260907/summarize_memeye_math.py",
+      "destination": "research_snapshot/creamem3/experiments/full_budget_20260907/summarize_memeye_math.py",
+      "sha256": "0fca8288bdb7c2d56bf117696b154f74b57e4885def4145980ccfe0f13ff91cf",
+      "size_bytes": 31903,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/iterative_memory_20260907/run_round.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/iterative_memory_20260907/build_multichannel_round_v2.py",
+      "destination": "research_snapshot/creamem3/experiments/iterative_memory_20260907/build_multichannel_round_v2.py",
+      "sha256": "ea6f52799f754118f7809d181f03c413fb31f613d73c9aaa12f95e84d3c898b0",
+      "size_bytes": 13170,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/locomo_math_narrow_20260911/core.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/iterative_memory_20260907/candidate_context_policy.py",
+      "destination": "research_snapshot/creamem3/experiments/iterative_memory_20260907/candidate_context_policy.py",
+      "sha256": "f45534660f6901eeda84a9b8d1c6606299a5144f78452c4af61d51b65d1bac1d",
+      "size_bytes": 1830,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/memeye_budget_online_20260914/config.py",
+        "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py",
+        "creamem3/experiments/memeye_failure_online_20260914/run.py",
+        "creamem3/experiments/memeye_failure_online_20260914/selection.py",
+        "creamem3/experiments/memeye_failure_online_20260914/verify.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/run.py",
+        "creamem3/experiments/memeye_online_state_20260914/audit.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/iterative_memory_20260907/multichannel_selector_v2.py",
+      "destination": "research_snapshot/creamem3/experiments/iterative_memory_20260907/multichannel_selector_v2.py",
+      "sha256": "499dc3a4786e387322435d02fac8ae975527f63507eea71ecdeb1387404d070a",
+      "size_bytes": 13955,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/iterative_memory_20260907/build_multichannel_round_v2.py",
+        "creamem3/experiments/iterative_memory_20260907/test_multichannel_selector_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/iterative_memory_20260907/numerical_solver_v2.py",
+      "destination": "research_snapshot/creamem3/experiments/iterative_memory_20260907/numerical_solver_v2.py",
+      "sha256": "433fd7f0c447c1dc409ea195048003cead3ab6219aec4f66b74d72a15d857065",
+      "size_bytes": 6225,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/math_selector.py",
+        "creamem3/experiments/iterative_memory_20260907/multichannel_selector_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/iterative_memory_20260907/prepare_variants.py",
+      "destination": "research_snapshot/creamem3/experiments/iterative_memory_20260907/prepare_variants.py",
+      "sha256": "70aed21b2fc72fefb64d018ade714797cbb5c112224e3f24c1cd69a0d98d3cfd",
+      "size_bytes": 5119,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/iterative_memory_20260907/build_multichannel_round_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/iterative_memory_20260907/projection_embeddings.py",
+      "destination": "research_snapshot/creamem3/experiments/iterative_memory_20260907/projection_embeddings.py",
+      "sha256": "7d94412eb29609790749224a9fb90f1224d08dd5b1936d9f616694192bdc42ae",
+      "size_bytes": 15458,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/iterative_memory_20260907/build_multichannel_round_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/iterative_memory_20260907/query_projections.py",
+      "destination": "research_snapshot/creamem3/experiments/iterative_memory_20260907/query_projections.py",
+      "sha256": "de6209e8109b19b76a98a197bb55447e1b38e37032c61611480109605b63327c",
+      "size_bytes": 19517,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/iterative_memory_20260907/build_multichannel_round_v2.py",
+        "creamem3/experiments/iterative_memory_20260907/projection_embeddings.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/core.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/iterative_memory_20260907/run_round.py",
+      "destination": "research_snapshot/creamem3/experiments/iterative_memory_20260907/run_round.py",
+      "sha256": "b47e41206db1a78bb62ac10b828ad73e7c543cbb517e04c33583cdb10525c139",
+      "size_bytes": 36912,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_evidence_20260914/core.py",
+        "creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+        "creamem3/experiments/memeye_failure_online_20260914/audit.py",
+        "creamem3/experiments/memeye_failure_online_20260914/run.py",
+        "creamem3/experiments/memeye_failure_online_20260914/selection.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/iterative_memory_20260907/set_selectors.py",
+      "destination": "research_snapshot/creamem3/experiments/iterative_memory_20260907/set_selectors.py",
+      "sha256": "71ad5b489f7b6e6b91e94ce96222234c2c075f2de81af7cb381d00ed986585a5",
+      "size_bytes": 16021,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/math_selector.py",
+        "creamem3/experiments/iterative_memory_20260907/multichannel_selector_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/iterative_memory_20260907/test_multichannel_selector_v2.py",
+      "destination": "research_snapshot/creamem3/experiments/iterative_memory_20260907/test_multichannel_selector_v2.py",
+      "sha256": "d1115575eda55281004909d5d458ad42f2f98a935d92c5e06862c5b1f95da202",
+      "size_bytes": 8409,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/lme_remaining200_20260923/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/lme_remaining200_20260923/__init__.py",
+      "sha256": "e9e43b6f80ab52aa9db0b7e55fa2e6112da6882dad8a27ebbe4e911dc5fa329e",
+      "size_bytes": 76,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/lme_remaining200_20260923/__init__.py",
+        "creamem3/experiments/lme_remaining200_20260923/run.py",
+        "creamem3/experiments/lme_remaining200_20260923/test_run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/lme_remaining200_20260923/run.py",
+      "destination": "research_snapshot/creamem3/experiments/lme_remaining200_20260923/run.py",
+      "sha256": "b07767255f8129a19386924c813b3659a559f94549e0a7c1b1f2014c4a5b09db",
+      "size_bytes": 11672,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/lme_remaining200_20260923/test_run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/lme_remaining200_20260923/test_run.py",
+      "destination": "research_snapshot/creamem3/experiments/lme_remaining200_20260923/test_run.py",
+      "sha256": "53524ee4dbc0fa1c3b14029ab0d249b2fe000e55cdd0af78f6f7286ed417efc0",
+      "size_bytes": 1505,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/locomo_cumulative20_20260917/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_cumulative20_20260917/run.py",
+      "sha256": "1660cb8fc18087648706257e0d11731297452b800453169ff61dc0d986b87862",
+      "size_bytes": 15350,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/locomo_cumulative20_20260917/test_core.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_cumulative20_20260917/test_core.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_cumulative20_20260917/test_core.py",
+      "sha256": "cca9d2aef5eb84b26e03bfe450c696c836daa6d809fcff9bd74b8bb2100ee03e",
+      "size_bytes": 1108,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/locomo_g35lite_20260908/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_g35lite_20260908/run.py",
+      "sha256": "ef82cb751910f3c0a7a4f0a314729f4a7e7288343653cce2c9eeb49b9259e493",
+      "size_bytes": 18666,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_offline_20260908/shared_runtime.py",
+        "creamem3/experiments/locomo_online_only_20260909/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_g35lite_20260908/runtime.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_g35lite_20260908/runtime.py",
+      "sha256": "4f272b9cc7a5a4c6a09c0eb3c9c389d593e872f26a9253a6abed0df84c51f4f2",
+      "size_bytes": 11651,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_g35lite_20260908/run.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py",
+        "creamem3/experiments/locomo_offline_20260908/shared_runtime.py",
+        "creamem3/experiments/locomo_online_only_20260909/runtime.py",
+        "creamem3/experiments/memeye_evidence_20260914/core.py",
+        "creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+        "creamem3/experiments/memeye_evidence_20260914/ledger.py",
+        "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py",
+        "creamem3/experiments/memeye_online_state_20260914/build.py",
+        "creamem3/experiments/online_revision_20260915/probe.py",
+        "creamem3/experiments/online_revision_20260915/transport.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_joint_revision_20260909/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_joint_revision_20260909/__init__.py",
+      "sha256": "db32600bd11ca84b23f0a204cd337eb535eb2cf5dd1eed3474d80c36b53d4f30",
+      "size_bytes": 83,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/__init__.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_audit.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_eval.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/relation_read.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/run.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/minimal_event_repair.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/priority_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/repeat_four.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_joint_revision_20260909/followup_audit.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_joint_revision_20260909/followup_audit.py",
+      "sha256": "9c7c6a098c880a1dc5508537a10217391ad840272fad474e1417d2004a83c61c",
+      "size_bytes": 7026,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_eval.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/relation_read.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/repeat_four.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_joint_revision_20260909/followup_eval.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_joint_revision_20260909/followup_eval.py",
+      "sha256": "5e0c7e36cfc066d2fe880328c6b0a3578ca0dc83d2eeb352321bb6ee6699a168",
+      "size_bytes": 10565,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/relation_read.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/minimal_event_repair.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/priority_reader.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_joint_revision_20260909/relation_read.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_joint_revision_20260909/relation_read.py",
+      "sha256": "ab7974a914c5eeb31a419dc110aca91d5ad19e04b7007992cf4dec193281805c",
+      "size_bytes": 7813,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/priority_reader.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_joint_revision_20260909/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_joint_revision_20260909/run.py",
+      "sha256": "b659d224aa7ea25df3742910b20ff973ae5c5b20366d85b3eb95bc64183234c0",
+      "size_bytes": 9886,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_audit.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_eval.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_math20_10_20260917/core.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_math20_10_20260917/core.py",
+      "sha256": "4aab71b9b1b4afeedbaf6b2f3f2b757acf6d2fcbe178a67392f6a443a4fdcc72",
+      "size_bytes": 3007,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_random_links_20261114/math20_run.py",
+        "creamem3/experiments/locomo_math20_10_20260917/run.py",
+        "creamem3/experiments/locomo_math20_10_20260917/test_core.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_math20_10_20260917/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_math20_10_20260917/run.py",
+      "sha256": "4cf692c8947e201d10be7f7dca82d7c89e1d7180564e69d6f948c4e3cbc2f21d",
+      "size_bytes": 15719,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/locomo_cumulative20_20260917/run.py",
+        "creamem3/experiments/locomo_math20_10_20260917/test_core.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_math20_10_20260917/test_core.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_math20_10_20260917/test_core.py",
+      "sha256": "01a9630f399b4499703e4cdf5e072f32c270398cc219b19a01025bd34b328b2d",
+      "size_bytes": 3450,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/locomo_math_narrow_20260911/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_math_narrow_20260911/__init__.py",
+      "sha256": "53294d889f5d23182fd146106a8f2f7d21b0c3971387553ac1b0fe3e9acf4e2c",
+      "size_bytes": 77,
+      "selection": "static_dependency",
+      "imported_by": [
+        "analysis/opctx_random_links_20261114/math20_run.py",
+        "creamem3/experiments/aligned_selector_ablations_20260913/core.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/__init__.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/core.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/run.py",
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/core.py",
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_math_narrow_20260911/core.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_math_narrow_20260911/core.py",
+      "sha256": "6230c55613f3f982fa483b563c1c28ee7ab524f1109929f16807443d238d3e76",
+      "size_bytes": 4821,
+      "selection": "static_dependency",
+      "imported_by": [
+        "analysis/opctx_random_links_20261114/math20_run.py",
+        "creamem3/experiments/aligned_selector_ablations_20260913/core.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/run.py",
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/core.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_math_narrow_20260911/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_math_narrow_20260911/run.py",
+      "sha256": "b2cdb52fa06463c1bc235e08805430f5a978e87d8041e5d2805b3d9ffa0a0e5b",
+      "size_bytes": 18579,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_math_summary3_budget_20260913/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_math_summary3_budget_20260913/__init__.py",
+      "sha256": "7e9e1a8edc90ee48f8d479124eae619737f125354c80580f3af45013a16c346a",
+      "size_bytes": 77,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/aligned_selector_ablations_20260913/run.py",
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/__init__.py",
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/core.py",
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_math_summary3_budget_20260913/core.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_math_summary3_budget_20260913/core.py",
+      "sha256": "5cee04a742dc0e91b6abe38b48a10ae3ddb864a3a285300a25ac94a104c60f49",
+      "size_bytes": 2634,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_math_summary3_budget_20260913/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_math_summary3_budget_20260913/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_math_summary3_budget_20260913/run.py",
+      "sha256": "343cfdd4d3cabdb791d22b716c1ead36352f3be6afaf69adb6363debef2939fd",
+      "size_bytes": 14118,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/aligned_selector_ablations_20260913/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_mgtm480_writer_20260909/enum_repair.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_mgtm480_writer_20260909/enum_repair.py",
+      "sha256": "4e6b1de501ca65c47e299d3cac3a9fcce9a1a67858ae95f041d02c79e74a98cf",
+      "size_bytes": 4104,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/enum_resume.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_mgtm480_writer_20260909/enum_resume.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_mgtm480_writer_20260909/enum_resume.py",
+      "sha256": "ee028232c035138278cf62e3352c8aa292323f6ca4b24b4ea7517dd60a1ebd4d",
+      "size_bytes": 12494,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_top5_budget_20260910/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_mgtm480_writer_20260909/full.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_mgtm480_writer_20260909/full.py",
+      "sha256": "488ce3ef265236585c6be7e0ba0ba940b8062191c41f68e07bb500d886cbc095",
+      "size_bytes": 14747,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/enum_repair.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/enum_resume.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/recheck_id.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_mgtm480_writer_20260909/recheck_id.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_mgtm480_writer_20260909/recheck_id.py",
+      "sha256": "c3836f5aad685f8a2cec1f126d18471f348fa7cf6dc6ed8c72bc31ac5ceb81b4",
+      "size_bytes": 2890,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/enum_resume.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_mgtm480_writer_20260909/recover.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_mgtm480_writer_20260909/recover.py",
+      "sha256": "fbb5a90efa56390e4652fb01cecd3e87ae07e1b0dd4e2ccfa7753abfe1c2b691",
+      "size_bytes": 17742,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/full.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_mgtm480_writer_20260909/run.py",
+      "sha256": "db73d1151e244b78c9e7ff46fa1b8e59b5c511f06f384474b70c91de0fffb3bc",
+      "size_bytes": 14389,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/recover.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_mgtm480_writer_20260909/writer.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_mgtm480_writer_20260909/writer.py",
+      "sha256": "3e47df4f21a91d71131dcd51a9b68e170712d95f84d99ce26b8f2c0c83bc8f27",
+      "size_bytes": 7690,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_narrow_rerank_ablations_20260913/core.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_narrow_rerank_ablations_20260913/core.py",
+      "sha256": "b4888563e22bd9de3f4b1ac87c2b1899eca9608a97932e8dea57e019604b11de",
+      "size_bytes": 4569,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_math20_10_20260917/core.py",
+        "creamem3/experiments/locomo_narrow_rerank_ablations_20260913/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_narrow_rerank_ablations_20260913/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_narrow_rerank_ablations_20260913/run.py",
+      "sha256": "f36a36499d72bc7899c9f92a8661ef6ac032e6f2b965814d5de3b4964c84779b",
+      "size_bytes": 16344,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_math20_10_20260917/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_offline_20260908/offline_engine_v2.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_offline_20260908/offline_engine_v2.py",
+      "sha256": "0c5f4d6c5befc3294dd7bf1deefc1014b6716f8f1a7faca5460bac02c49a330c",
+      "size_bytes": 19815,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/offline_engine_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_offline_20260908/shared_runtime.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_offline_20260908/shared_runtime.py",
+      "sha256": "3289929f3cfc8f94e110185aca5e713526fc4ad13d992dbbfb84a0243d156a56",
+      "size_bytes": 4624,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_offline_20260908/offline_engine_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_only_20260909/audit.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_only_20260909/audit.py",
+      "sha256": "b4167969eab811a10ccbbb639910557555e7a276b529abf0bb8001c5961ee72b",
+      "size_bytes": 6630,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_audit.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_eval.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/run.py",
+        "creamem3/experiments/locomo_online_only_20260909/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_only_20260909/prompts.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_only_20260909/prompts.py",
+      "sha256": "9ede9f7887877a23edac4ed7808ca94cf32279526afeefeb30cebd5b4d037923",
+      "size_bytes": 2128,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_only_20260909/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_only_20260909/result_analysis.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_only_20260909/result_analysis.py",
+      "sha256": "79036fca8416b1ad9441231f868f2e9750384956b53490d3943343e09d2d126a",
+      "size_bytes": 5322,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_eval.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_only_20260909/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_only_20260909/run.py",
+      "sha256": "2a0662e7d88cdf0a6301de3300d2680f597051154a884921f410cefebd0245e0",
+      "size_bytes": 20055,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_audit.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_eval.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/run.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/writer.py",
+        "creamem3/experiments/locomo_online_only_20260909/result_analysis.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_only_20260909/runtime.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_only_20260909/runtime.py",
+      "sha256": "6e7f5520f58d1e0dc5160d8fb7902e390c7607725efb2d6142b00d4acc7a8779",
+      "size_bytes": 2462,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_audit.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/followup_eval.py",
+        "creamem3/experiments/locomo_joint_revision_20260909/run.py",
+        "creamem3/experiments/locomo_math_narrow_20260911/run.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py",
+        "creamem3/experiments/locomo_online_only_20260909/audit.py",
+        "creamem3/experiments/locomo_online_only_20260909/result_analysis.py",
+        "creamem3/experiments/locomo_online_only_20260909/run.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/minimal_event_repair.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/proof_audit.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/repeat_four.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_event_state.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/runtime.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/__init__.py",
+      "sha256": "5bb2d64fad65cfcf97f953879dd31e3d5437cce561744588080b6483ff553cbb",
+      "size_bytes": 67,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/__init__.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/dnf_decoder.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/incomplete_http_read_adapter.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/minimal_event_repair.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/nested_proof_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/ordinal_proof_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/priority_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/proof_admission.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/proof_audit.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/proof_factorization.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/repeat_four.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_event_state.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_state_intake_v4.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/view_scope_proofs.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/dnf_decoder.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/dnf_decoder.py",
+      "sha256": "4356cea617060dc18ab1c6590f524c63d84995e3855899a7d4591c3a7272898d",
+      "size_bytes": 4550,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/nested_proof_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/ordinal_proof_reader.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/incomplete_http_read_adapter.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/incomplete_http_read_adapter.py",
+      "sha256": "d7faddca5525e553a75c5e23fdeda2f288ab3a968314b63572654a2cc7001c32",
+      "size_bytes": 2345,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/minimal_event_repair.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/minimal_event_repair.py",
+      "sha256": "ec202e261982bc4181279385cf890c6ac56e1ebdfff58f0e999d672ec67d6d73",
+      "size_bytes": 14215,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/proof_factorization.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/nested_proof_reader.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/nested_proof_reader.py",
+      "sha256": "ea670a008391b1226e57addc5e1a6416a468504ed2b63897df3cab83fd097c32",
+      "size_bytes": 10482,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/ordinal_proof_reader.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/ordinal_proof_reader.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/ordinal_proof_reader.py",
+      "sha256": "d3f32b84dea81f1b9ff4e5f48aa1d232bc1843954a271b72f49941e37da31dd1",
+      "size_bytes": 8553,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_event_state.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_state_intake_v4.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/priority_reader.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/priority_reader.py",
+      "sha256": "1d15d8d9bfaa78d3bb8be076891aaf49bc772a82d13f9f3519eb2831accc3222",
+      "size_bytes": 8805,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/minimal_event_repair.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/proof_admission.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/proof_admission.py",
+      "sha256": "40658e07405c9518d0a0364ea77628c87489242040ca9dc33fcbf0daddac9aa1",
+      "size_bytes": 4307,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/nested_proof_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/ordinal_proof_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/proof_audit.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/proof_audit.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/proof_audit.py",
+      "sha256": "b23fbed4d43a909b4a51de5f3d63b00a01493a3205fee39f5f8f1dc03d4f2a8d",
+      "size_bytes": 4943,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/nested_proof_reader.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/ordinal_proof_reader.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/proof_factorization.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/proof_factorization.py",
+      "sha256": "eacfcf3da5581bc64da17984c51f768a5e389692e4d76ab1cb831f22911f45d6",
+      "size_bytes": 11049,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/dnf_decoder.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/proof_admission.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/view_scope_proofs.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/repeat_four.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/repeat_four.py",
+      "sha256": "ddc9e494bbf1eca84e60bd64301d409330598d148ee44fada631ac5419255b0a",
+      "size_bytes": 7176,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/priority_reader.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/stable_event_state.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/stable_event_state.py",
+      "sha256": "7178056a58f1e4b960e4c05a7881729a6da63d1a0c877bbed6d838d91784be48",
+      "size_bytes": 17616,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_state_intake_v4.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/stable_state_intake_v4.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/stable_state_intake_v4.py",
+      "sha256": "6029a1c9c69223fc49d35de8831ff1747a22548b6f9afb2bed5c274c7bdec7f1",
+      "size_bytes": 10195,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_online_semantics_20260909/view_scope_proofs.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_online_semantics_20260909/view_scope_proofs.py",
+      "sha256": "5dd956cd3d399f9db13809a271aa61c42d516ec8217e8cdb741532533d23ea45",
+      "size_bytes": 6454,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_online_semantics_20260909/ordinal_proof_reader.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_prefilter50_rerank5_20260913/core.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_prefilter50_rerank5_20260913/core.py",
+      "sha256": "1214a6bf4b34b9ba9147f3aa86ce46c4af7ea72218f84af8e1400f0f7a43c82e",
+      "size_bytes": 2176,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_narrow_rerank_ablations_20260913/core.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/run.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/test_core.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_prefilter50_rerank5_20260913/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_prefilter50_rerank5_20260913/run.py",
+      "sha256": "d16ae5b0697230aa6c32af8a0202af58caa31a1171fbf8b08404baaacd463a42",
+      "size_bytes": 16705,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_narrow_rerank_ablations_20260913/run.py",
+        "creamem3/experiments/locomo_prefilter50_rerank5_20260913/test_core.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_prefilter50_rerank5_20260913/test_core.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_prefilter50_rerank5_20260913/test_core.py",
+      "sha256": "52a8c29142898fcc3df2cca13a55738b7a0678638e0b9b59a87f3ebc6d67a192",
+      "size_bytes": 3209,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_math20_10_20260917/test_core.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_state_norerank_20260909/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_state_norerank_20260909/__init__.py",
+      "sha256": "ff88e0ce6e9f25f58236a3023f2e77d4de9bb71dacfd7b1c4aff0e1f60fd498e",
+      "size_bytes": 77,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/run.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_event_state.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/__init__.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_compact_schema.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_roles_v3.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/run.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/runtime.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/selector.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_state_norerank_20260909/revision.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_state_norerank_20260909/revision.py",
+      "sha256": "556ec2d1b294284ad767ab116315e21085b046a8c5920bb40fb1e30d31143479",
+      "size_bytes": 21581,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/run.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_event_state.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_compact_schema.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_roles_v3.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_state_norerank_20260909/revision_compact_schema.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_state_norerank_20260909/revision_compact_schema.py",
+      "sha256": "38f09110a7267b7623895437fbe128dff8bd0a87f68326d43b207b0b78469b62",
+      "size_bytes": 3324,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_roles_v3.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_state_norerank_20260909/revision_roles_v3.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_state_norerank_20260909/revision_roles_v3.py",
+      "sha256": "2fb84f84523e48b559c9229e2100091f304171c9d3574304a8354dc78b3c8e5d",
+      "size_bytes": 8650,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_joint_revision_20260909/run.py",
+        "creamem3/experiments/locomo_online_semantics_20260909/stable_event_state.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_state_norerank_20260909/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_state_norerank_20260909/run.py",
+      "sha256": "0a943e944504a9951efcfed66296d03ed88f4a873462cf2f6c849e18b4971626",
+      "size_bytes": 13388,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_state_norerank_20260909/revision.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_compact_schema.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_roles_v3.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_state_norerank_20260909/runtime.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_state_norerank_20260909/runtime.py",
+      "sha256": "d1ddafbd1e89b4446988beb6fb5ee9c455550a25461d61e414e21c5bc39f1fcc",
+      "size_bytes": 1940,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_state_norerank_20260909/revision.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_compact_schema.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision_roles_v3.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_state_norerank_20260909/selector.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_state_norerank_20260909/selector.py",
+      "sha256": "01ca9fa0a2928dd91c8b97466b95b54909a576956480d05bf4a0863a866be164",
+      "size_bytes": 4554,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/locomo_state_norerank_20260909/revision.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_top5_budget_20260910/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_top5_budget_20260910/__init__.py",
+      "sha256": "2b11492e4dfa616dd7d88772d1780c020aea8aa9c5d39bf5ac908804b8023cf9",
+      "size_bytes": 60,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/transport.py",
+        "creamem3/experiments/locomo_top5_budget_20260910/__init__.py",
+        "creamem3/experiments/locomo_top5_budget_20260910/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/locomo_top5_budget_20260910/run.py",
+      "destination": "research_snapshot/creamem3/experiments/locomo_top5_budget_20260910/run.py",
+      "sha256": "19cc852eb1236738f864be777f624d94e7a9949293baa2b9f8bead478f2a63df",
+      "size_bytes": 20599,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/component_ablations_20260911/transport.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/mec_transfer_20260906/run_locomo.py",
+      "destination": "research_snapshot/creamem3/experiments/mec_transfer_20260906/run_locomo.py",
+      "sha256": "899aa29c3031355361ab020b2d0b3b4e8637b0827a1d9c8c28cb6f9f08a90462",
+      "size_bytes": 20974,
+      "selection": "static_dependency",
+      "imported_by": [
+        "analysis/opctx_random_links_20261113/diagnose_routing.py",
+        "analysis/opctx_random_links_20261113/run.py",
+        "creamem3/experiments/review_main_align_20260926/locomo.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/mec_transfer_20260906/run_memeye.py",
+      "destination": "research_snapshot/creamem3/experiments/mec_transfer_20260906/run_memeye.py",
+      "sha256": "157a0cd4a79f26bfd96aae4f04894e12f51b6e53731ed470fcb158dd854b8518",
+      "size_bytes": 22734,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/full_budget_20260907/run_memeye_math.py",
+        "creamem3/experiments/iterative_memory_20260907/build_multichannel_round_v2.py",
+        "creamem3/experiments/mec_transfer_20260906/summarize_memeye.py",
+        "creamem3/experiments/memeye_budget_online_20260914/config.py",
+        "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py",
+        "creamem3/experiments/memeye_failure_online_20260914/selection.py",
+        "creamem3/experiments/online_revision_20260915/evidence_units.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/mec_transfer_20260906/summarize_memeye.py",
+      "destination": "research_snapshot/creamem3/experiments/mec_transfer_20260906/summarize_memeye.py",
+      "sha256": "3b0387edbc8695170db87468c32aef60fb2450b85b1e4d352790caa9561a3a31",
+      "size_bytes": 21520,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/full_budget_20260907/summarize_memeye_math.py",
+        "creamem3/experiments/iterative_memory_20260907/run_round.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_backbones_20260921/runtime.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_backbones_20260921/runtime.py",
+      "sha256": "20e7ac72f363fd83c73776c630a5ff7914b0d2c9da100798984ae9451aca91db",
+      "size_bytes": 12008,
+      "selection": "static_dependency",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/e2e/embedding_sample_diagnostic.py",
+        "analysis/opctx_reviewer_20261111/e2e/embedding_token_diagnostic.py",
+        "analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/runtime.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_baselines_20260920/run.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_baselines_20260920/run.py",
+      "sha256": "47d64d567f866e697079c29b3907eece46adb00c2e70ff68cee0fcc502e552bc",
+      "size_bytes": 27337,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_baselines_remaining_20260920/transport.py",
+        "creamem3/experiments/memeye_visual_baselines_20260920/native.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_baselines_remaining_20260920/transport.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_baselines_remaining_20260920/transport.py",
+      "sha256": "a5057731aaca7cf8d4666b3d574b99395b16ec8ecaea6104882165ce72e4a925",
+      "size_bytes": 5192,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_backbones_20260921/runtime.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_budget_online_20260914/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_budget_online_20260914/__init__.py",
+      "sha256": "0e96bffa76ff10325c5c83e60ea98062388f11d0ab4127ce68904bad56fe76e2",
+      "size_bytes": 79,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_budget_online_20260914/__init__.py",
+        "creamem3/experiments/memeye_budget_online_20260914/config.py",
+        "creamem3/experiments/memeye_online_state_20260914/audit.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_budget_online_20260914/config.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_budget_online_20260914/config.py",
+      "sha256": "494c6454d51f83c24bd81a60e8716d30284d7f561211f72eb93a9e7d76baef56",
+      "size_bytes": 1371,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_online_state_20260914/audit.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_evidence_20260914/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_evidence_20260914/__init__.py",
+      "sha256": "75f37a094652fe42e9d13e4de047cd0624d500a8ce2e2efd9e1719bdd23577d1",
+      "size_bytes": 76,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_budget_online_20260914/config.py",
+        "creamem3/experiments/memeye_evidence_20260914/__init__.py",
+        "creamem3/experiments/memeye_evidence_20260914/core.py",
+        "creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+        "creamem3/experiments/memeye_evidence_20260914/ledger.py",
+        "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_evidence_20260914/core.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_evidence_20260914/core.py",
+      "sha256": "4a40faabd42900d6db774b8e5059cf81c26257346ab1511fda115c9814c88f4b",
+      "size_bytes": 9940,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_budget_online_20260914/config.py",
+        "creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+        "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+      "sha256": "e9d02cc83d716f7b70d9c8fe7c99d244d787b8cc115e87a02000d3458aab5c08",
+      "size_bytes": 10554,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_evidence_20260914/ledger.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_evidence_20260914/ledger.py",
+      "sha256": "94cba7a7797126baea7987a4561549fc8480086461784aabe7140cd03a209c49",
+      "size_bytes": 6170,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_evidence_20260914/core.py",
+        "creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+        "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_evidence_20260914/verify_evidence.py",
+      "sha256": "51805370ed9810e29aca9afca862251db2191ae3a8353824a7730d76eb5ba3ed",
+      "size_bytes": 11313,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_online_state_20260914/build.py",
+        "creamem3/experiments/online_revision_20260915/generation.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_failure_online_20260914/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_failure_online_20260914/__init__.py",
+      "sha256": "dede30a604029b3a53677cf7406c723a828f36ae01ef55f1caae87440383c299",
+      "size_bytes": 75,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_budget_online_20260914/config.py",
+        "creamem3/experiments/memeye_evidence_20260914/core.py",
+        "creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+        "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py",
+        "creamem3/experiments/memeye_failure_online_20260914/__init__.py",
+        "creamem3/experiments/memeye_failure_online_20260914/audit.py",
+        "creamem3/experiments/memeye_failure_online_20260914/run.py",
+        "creamem3/experiments/memeye_failure_online_20260914/run_compat.py",
+        "creamem3/experiments/memeye_failure_online_20260914/selection.py",
+        "creamem3/experiments/memeye_failure_online_20260914/verify.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_failure_online_20260914/audit.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_failure_online_20260914/audit.py",
+      "sha256": "8b8934bf98e5640734f2bd94bd930b0be475b83f61ee7a1473de8b6ecda209be",
+      "size_bytes": 11865,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_failure_online_20260914/verify.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_failure_online_20260914/run.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_failure_online_20260914/run.py",
+      "sha256": "a133bd86b1475c6053826fae1f099184229002bbeb9276be7a83aa770980e61f",
+      "size_bytes": 8504,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_budget_online_20260914/config.py",
+        "creamem3/experiments/memeye_evidence_20260914/core.py",
+        "creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+        "creamem3/experiments/memeye_failure_online_20260914/run_compat.py",
+        "creamem3/experiments/memeye_failure_online_20260914/selection.py",
+        "creamem3/experiments/memeye_failure_online_20260914/verify.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_failure_online_20260914/run_compat.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_failure_online_20260914/run_compat.py",
+      "sha256": "e84da92b17a214dbb4387631ae14b34aaadf6e89887a8bd57099bcf63ce51c5e",
+      "size_bytes": 1775,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_failure_online_20260914/verify.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_failure_online_20260914/selection.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_failure_online_20260914/selection.py",
+      "sha256": "bb142e67c4885881e65a36f2deeead7b5e5e933a9e585a0797b3c9b879119fa7",
+      "size_bytes": 8703,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_failure_online_20260914/run.py",
+        "creamem3/experiments/memeye_failure_online_20260914/run_compat.py",
+        "creamem3/experiments/memeye_failure_online_20260914/verify.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_failure_online_20260914/verify.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_failure_online_20260914/verify.py",
+      "sha256": "8a1be60e0cf126093a90c774b8e141a62a13bbe28c1bb5ec900b1989a539416a",
+      "size_bytes": 14038,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_evidence_20260914/verify_evidence.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_ablation_20260923/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_ablation_20260923/__init__.py",
+      "sha256": "caa4f62047734ec41d07b512f5260500419a1d381d1cd3bb1b729c8067df9691",
+      "size_bytes": 76,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/caption_control.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/__init__.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/run.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/runtime.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/test_run.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_20260923/run.py",
+        "creamem3/experiments/memeye_lite_score_repair_20260923/run.py",
+        "creamem3/experiments/review_fast_20260926/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_ablation_20260923/run.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_ablation_20260923/run.py",
+      "sha256": "2dd9901b59d4ca209d7755d81bd0a8b80349acbda79619dffe21917ad72f0ddc",
+      "size_bytes": 24938,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/caption_control.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/test_run.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_20260923/run.py",
+        "creamem3/experiments/memeye_lite_score_repair_20260923/run.py",
+        "creamem3/experiments/review_fast_20260926/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_ablation_20260923/runtime.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_ablation_20260923/runtime.py",
+      "sha256": "199cf05b49a88e6a6543883fb9f1b8f3f6e0b9f63be327d045dcc4cea3d80a6f",
+      "size_bytes": 4672,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_ablation_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_ablation_20260923/test_run.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_ablation_20260923/test_run.py",
+      "sha256": "52f377ad45acc008672c1f7cc4f95753802291769b0fc19de5b83be9ffd3afb4",
+      "size_bytes": 5036,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_ablation_limits_20260923/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_ablation_limits_20260923/__init__.py",
+      "sha256": "f36f82bf26977508d3a30e75330d760539f05003ef884e84e45b9090a6f1cd84",
+      "size_bytes": 54,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_ablation_limits_20260923/__init__.py",
+        "creamem3/experiments/memeye_lite_ablation_limits_20260923/run.py",
+        "creamem3/experiments/memeye_lite_score_repair_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_ablation_limits_20260923/run.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_ablation_limits_20260923/run.py",
+      "sha256": "f7f2391aae96f4d39d411886351629f9c0c83fc15fcc75cd82ee277dda5e2fe0",
+      "size_bytes": 7557,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_score_repair_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_ablation_schema_20260923/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_ablation_schema_20260923/__init__.py",
+      "sha256": "8b95c2303c1eff6d8c5f0451e823848da442f74cbd4daa5edea766aa289e5414",
+      "size_bytes": 68,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_ablation_limits_20260923/run.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_20260923/__init__.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_20260923/run.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_ordered_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_ablation_schema_20260923/run.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_ablation_schema_20260923/run.py",
+      "sha256": "914616f69b8b5fea74a69eb923b0571f095b745ec69486cd8047e5417c5036c0",
+      "size_bytes": 14465,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_ablation_limits_20260923/run.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_ordered_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_ablation_schema_ordered_20260923/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_ablation_schema_ordered_20260923/__init__.py",
+      "sha256": "8791f356988eeb57c28ef43c0927213dfa6e7566d92dd09ba22523ae1b731ce1",
+      "size_bytes": 77,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_ablation_limits_20260923/run.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_ordered_20260923/__init__.py",
+        "creamem3/experiments/memeye_lite_ablation_schema_ordered_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_ablation_schema_ordered_20260923/run.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_ablation_schema_ordered_20260923/run.py",
+      "sha256": "5f019b65ef971d9198058952f381b0a077e55744705e680600869ac5a19fedff",
+      "size_bytes": 4764,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_ablation_limits_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_score_repair_20260923/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_score_repair_20260923/__init__.py",
+      "sha256": "45572e8d02dbe865b49665f98f46d3078d1a809f32ddec8d870c079750b681fe",
+      "size_bytes": 70,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_score_repair_20260923/__init__.py",
+        "creamem3/experiments/memeye_lite_score_repair_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_lite_score_repair_20260923/run.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_lite_score_repair_20260923/run.py",
+      "sha256": "b5787b2172f636057fb49c1511450497fb98a605143bf7430816b02f5afe4896",
+      "size_bytes": 14173,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/review_followup_20260926/repair_judge.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_online_state_20260914/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_online_state_20260914/__init__.py",
+      "sha256": "90df412451c6c00adb04e2fb468c2bd9c3f92a761b848c4b312bc43fdc98aafc",
+      "size_bytes": 79,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_online_state_20260914/__init__.py",
+        "creamem3/experiments/memeye_online_state_20260914/audit.py",
+        "creamem3/experiments/memeye_online_state_20260914/build.py",
+        "creamem3/experiments/memeye_online_state_20260914/intake.py",
+        "creamem3/experiments/memeye_online_state_20260914/read_api.py",
+        "creamem3/experiments/memeye_online_state_20260914/reader_bridge.py",
+        "creamem3/experiments/memeye_online_state_20260914/state.py",
+        "creamem3/experiments/online_revision_20260915/engine.py",
+        "creamem3/experiments/online_revision_20260915/evidence_units.py",
+        "creamem3/experiments/online_revision_20260915/generation.py",
+        "creamem3/experiments/online_revision_20260915/generation_v8.py",
+        "creamem3/experiments/online_revision_20260915/probe.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_online_state_20260914/audit.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_online_state_20260914/audit.py",
+      "sha256": "f0349bd0207791bfe866d8178e451f40e5fca6ec9088f77372f03e5895bfad45",
+      "size_bytes": 7913,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_online_state_20260914/build.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_online_state_20260914/build.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_online_state_20260914/build.py",
+      "sha256": "fe69090e3c32efef273db51d67e020681fcfa64a6c8a2a530d344f1f28978ba5",
+      "size_bytes": 10228,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/online_revision_20260915/generation.py",
+        "creamem3/experiments/online_revision_20260915/probe.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_online_state_20260914/intake.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_online_state_20260914/intake.py",
+      "sha256": "d1a29f06195f5ffbcc5d7eac4df5e536c680745d9d247f7a7051d1b2daf6d148",
+      "size_bytes": 6867,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_online_state_20260914/build.py",
+        "creamem3/experiments/online_revision_20260915/generation.py",
+        "creamem3/experiments/online_revision_20260915/generation_v8.py",
+        "creamem3/experiments/online_revision_20260915/probe.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_online_state_20260914/read_api.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_online_state_20260914/read_api.py",
+      "sha256": "f8c3cad215c9135ceecc86146c392b67a2ba3f1b88350e579f43aad489ec555c",
+      "size_bytes": 3488,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/online_revision_20260915/evidence_units.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_online_state_20260914/reader_bridge.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_online_state_20260914/reader_bridge.py",
+      "sha256": "63bbfed36801b213f9be8de12bcaaee9b8c62685e897a9d8f95d62ad32f7d258",
+      "size_bytes": 1502,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_online_state_20260914/build.py",
+        "creamem3/experiments/memeye_online_state_20260914/read_api.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_online_state_20260914/state.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_online_state_20260914/state.py",
+      "sha256": "b9a90cd260e83ac3d0c3415dede5d4654c795311c091a4123dfad627566fb039",
+      "size_bytes": 16159,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_online_state_20260914/build.py",
+        "creamem3/experiments/memeye_online_state_20260914/intake.py",
+        "creamem3/experiments/memeye_online_state_20260914/read_api.py",
+        "creamem3/experiments/memeye_online_state_20260914/reader_bridge.py",
+        "creamem3/experiments/online_revision_20260915/engine.py",
+        "creamem3/experiments/online_revision_20260915/generation.py",
+        "creamem3/experiments/online_revision_20260915/generation_v8.py",
+        "creamem3/experiments/online_revision_20260915/probe.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_resume_20260921/network.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_resume_20260921/network.py",
+      "sha256": "6e051d77716ab4adeecfc33f61cabc1d88ab785e38c9b9ed6dc6e67f6878bc73",
+      "size_bytes": 5828,
+      "selection": "static_dependency",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/transport.py",
+        "analysis/opctx_random_links_20261113/transport.py",
+        "analysis/opctx_reviewer_20261111/e2e/embedding_metadata.py",
+        "analysis/opctx_reviewer_20261111/e2e/embedding_sample_diagnostic.py",
+        "analysis/opctx_reviewer_20261111/e2e/embedding_token_diagnostic.py",
+        "analysis/opctx_reviewer_20261111/e2e/lme_e2e.py",
+        "analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py",
+        "analysis/opctx_reviewer_20261111/e2e/test_lme_e2e.py",
+        "creamem3/experiments/memeye_backbones_20260921/runtime.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/memeye_visual_baselines_20260920/native.py",
+      "destination": "research_snapshot/creamem3/experiments/memeye_visual_baselines_20260920/native.py",
+      "sha256": "a02972b74bba4c5dfcd91d8ae3e1aef7494b7468bdc084ddd69a1ab4c3947a7d",
+      "size_bytes": 5194,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_backbones_20260921/runtime.py",
+        "creamem3/experiments/memeye_resume_20260921/network.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/online_revision_20260915/__init__.py",
+      "destination": "research_snapshot/creamem3/experiments/online_revision_20260915/__init__.py",
+      "sha256": "579ceecb73faa2d9c466220216b0239a3f6d079c89a53a357eb34ff541e41b7a",
+      "size_bytes": 76,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_ablation_20260923/run.py",
+        "creamem3/experiments/online_revision_20260915/__init__.py",
+        "creamem3/experiments/online_revision_20260915/engine.py",
+        "creamem3/experiments/online_revision_20260915/engine_v3.py",
+        "creamem3/experiments/online_revision_20260915/engine_v4.py",
+        "creamem3/experiments/online_revision_20260915/engine_v8.py",
+        "creamem3/experiments/online_revision_20260915/evidence_units.py",
+        "creamem3/experiments/online_revision_20260915/generation.py",
+        "creamem3/experiments/online_revision_20260915/generation_v8.py",
+        "creamem3/experiments/online_revision_20260915/probe.py",
+        "creamem3/experiments/online_revision_20260915/transport.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/online_revision_20260915/engine.py",
+      "destination": "research_snapshot/creamem3/experiments/online_revision_20260915/engine.py",
+      "sha256": "732d6df40f6ddd62331d155611f423f1b9241304bd04241dacc3dc16b55b7d3f",
+      "size_bytes": 4775,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/online_revision_20260915/engine_v3.py",
+        "creamem3/experiments/online_revision_20260915/generation.py",
+        "creamem3/experiments/online_revision_20260915/generation_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/online_revision_20260915/engine_v3.py",
+      "destination": "research_snapshot/creamem3/experiments/online_revision_20260915/engine_v3.py",
+      "sha256": "0906a57aede1d3c972f6275953e90e1c5b7ba5ef0ed9091392f3bea4dead6c27",
+      "size_bytes": 2652,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/online_revision_20260915/engine_v4.py",
+        "creamem3/experiments/online_revision_20260915/generation_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/online_revision_20260915/engine_v4.py",
+      "destination": "research_snapshot/creamem3/experiments/online_revision_20260915/engine_v4.py",
+      "sha256": "16bddfd1239db3ae31ab860350ef9937df94b0a1bf947e1996273114905fc5e3",
+      "size_bytes": 2483,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/online_revision_20260915/engine_v8.py",
+        "creamem3/experiments/online_revision_20260915/generation_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/online_revision_20260915/engine_v8.py",
+      "destination": "research_snapshot/creamem3/experiments/online_revision_20260915/engine_v8.py",
+      "sha256": "c35339506cef61383165d9c030e3440c80a7fe39330b6792cce4878ac6b40da7",
+      "size_bytes": 4709,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/online_revision_20260915/generation_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/online_revision_20260915/evidence_units.py",
+      "destination": "research_snapshot/creamem3/experiments/online_revision_20260915/evidence_units.py",
+      "sha256": "4ab3e849dd4c50499540c41cd1aa699bbebf916110f50a9a5cbb1dbb247a0cd6",
+      "size_bytes": 4596,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_ablation_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/online_revision_20260915/generation.py",
+      "destination": "research_snapshot/creamem3/experiments/online_revision_20260915/generation.py",
+      "sha256": "4bfb10dec09717799fd4575f20376b8e0787e34c1fe1b9dd959f7b7cd67df549",
+      "size_bytes": 11068,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/online_revision_20260915/generation_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/online_revision_20260915/generation_v8.py",
+      "destination": "research_snapshot/creamem3/experiments/online_revision_20260915/generation_v8.py",
+      "sha256": "4b339a0bc8f3d120e8b56222a9a66d57eb12cb292110b9862338fb7a26688eef",
+      "size_bytes": 7414,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_lite_ablation_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/online_revision_20260915/probe.py",
+      "destination": "research_snapshot/creamem3/experiments/online_revision_20260915/probe.py",
+      "sha256": "8c36488860ab2750ec81f6c64effee2339e844055a1a250e4bd4d4f33e64c690",
+      "size_bytes": 3836,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/online_revision_20260915/generation.py",
+        "creamem3/experiments/online_revision_20260915/generation_v8.py",
+        "creamem3/experiments/online_revision_20260915/transport.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/online_revision_20260915/transport.py",
+      "destination": "research_snapshot/creamem3/experiments/online_revision_20260915/transport.py",
+      "sha256": "f806c2f928acc5bfd79beefb19c7dc85606bd594e693c9a819ac6d5e4febbe00",
+      "size_bytes": 5550,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/online_revision_20260915/generation.py",
+        "creamem3/experiments/online_revision_20260915/generation_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/review_fast_20260926/audit.py",
+      "destination": "research_snapshot/creamem3/experiments/review_fast_20260926/audit.py",
+      "sha256": "14dc55712a6e66601a0c226ce1b0e26b9ff78dda1ba2630a2a463d8fa9468c98",
+      "size_bytes": 18355,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/review_followup_20260926/analyze.py",
+        "creamem3/experiments/review_followup_20260926/judge_robustness.py",
+        "creamem3/experiments/review_followup_20260926/locomo_evidence_audit.py",
+        "creamem3/experiments/review_followup_20260926/locomo_view_perturbation.py",
+        "creamem3/experiments/review_followup_20260926/report.py",
+        "creamem3/experiments/review_main_align_20260926/locomo.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/review_fast_20260926/run.py",
+      "destination": "research_snapshot/creamem3/experiments/review_fast_20260926/run.py",
+      "sha256": "8feb7f2c154c9fd0cfca0dfd87fc37420673a74ad8a12ebcc07432024b210767",
+      "size_bytes": 13021,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/review_fast_20260926/audit.py",
+        "creamem3/experiments/review_followup_20260926/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/analyze.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/analyze.py",
+      "sha256": "2bc5c92d23670b1575025eb49ec66536e6839c1ef7996f853464b1a790c7d42a",
+      "size_bytes": 4295,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/judge_robustness.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/judge_robustness.py",
+      "sha256": "b0d8c0fdd45afd7aab3e079b45b9cc04a46bae234e077e62c93f029c52453d22",
+      "size_bytes": 2265,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/locomo_evidence_audit.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/locomo_evidence_audit.py",
+      "sha256": "15e03a5db604ba297ccb4e5907b511fabee4780d2bcf1ebd39c5086bf9b4b467",
+      "size_bytes": 5804,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/review_followup_20260926/locomo_view_perturbation.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/locomo_view_perturbation.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/locomo_view_perturbation.py",
+      "sha256": "ceb65d10a17251c5fa53d63259325d817cfb01d4ca2eaa0d74ddb91fa6a8857c",
+      "size_bytes": 5497,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/repair_judge.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/repair_judge.py",
+      "sha256": "50769a2a93dd4df85926ab6596303729954aa93f00e912449cf7c1f9595f25cf",
+      "size_bytes": 1774,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/report.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/report.py",
+      "sha256": "d2c52e704ab0111102ed68156439c75846fca3abf79e9d8927f835a0984a9b5f",
+      "size_bytes": 11020,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/run.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/run.py",
+      "sha256": "5de4000d54f25c146fd9747395f214bc75dea449abf1fed53f3addbc6f70adce",
+      "size_bytes": 12956,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/review_followup_20260926/analyze.py",
+        "creamem3/experiments/review_followup_20260926/judge_robustness.py",
+        "creamem3/experiments/review_followup_20260926/locomo_evidence_audit.py",
+        "creamem3/experiments/review_followup_20260926/locomo_view_perturbation.py",
+        "creamem3/experiments/review_followup_20260926/repair_judge.py",
+        "creamem3/experiments/review_followup_20260926/report.py",
+        "creamem3/experiments/review_followup_20260926/selector_proxy_audit.py",
+        "creamem3/experiments/review_followup_20260926/solver_sensitivity.py",
+        "creamem3/experiments/review_followup_20260926/test_controls.py",
+        "creamem3/experiments/review_followup_20260926/verify.py"
+      ]
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/selector_proxy_audit.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/selector_proxy_audit.py",
+      "sha256": "00a3d915ce4f0cca1cbaabeb54334bc8d50b81d3c713d736b3fd572807fd6700",
+      "size_bytes": 2377,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/solver_sensitivity.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/solver_sensitivity.py",
+      "sha256": "d87918c2a321ebf7827fbe842f958ce3f931e051f07be2a33f06679eb678be02",
+      "size_bytes": 2901,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/test_controls.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/test_controls.py",
+      "sha256": "6d8308342370434a21cf6a11a5c4bcf47ca87a65f9958205d436b2a88d097255",
+      "size_bytes": 1619,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/review_followup_20260926/verify.py",
+      "destination": "research_snapshot/creamem3/experiments/review_followup_20260926/verify.py",
+      "sha256": "61b76a852f12b87502907f16380089cd2f2859f7842072aca91357222a2bab35",
+      "size_bytes": 3416,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/experiments/review_main_align_20260926/locomo.py",
+      "destination": "research_snapshot/creamem3/experiments/review_main_align_20260926/locomo.py",
+      "sha256": "7477d13c89d9a4622cf59a3d70bd5a421e5ac40a30b884cb5d9e8e6209bdfd0d",
+      "size_bytes": 8476,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/focused_answer_reader_v11.py",
+      "destination": "research_snapshot/creamem3/focused_answer_reader_v11.py",
+      "sha256": "2f8a9d0dd7cd68d49095549262da0c7a131858fbbcfa457a97dd4d66cdb4f251",
+      "size_bytes": 3011,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/frozen_sources/locomo81_graph_memory_v2.py",
+      "destination": "research_snapshot/creamem3/frozen_sources/locomo81_graph_memory_v2.py",
+      "sha256": "6e60aa6f8a4123f848221ba180f703f12c540268d0e17981f435d8a81947b8ee",
+      "size_bytes": 41328,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/graph_memory_v2.py",
+      "destination": "research_snapshot/creamem3/graph_memory_v2.py",
+      "sha256": "c74806d7668aa539041cad0a4d8686fb4376ee7b2af54169135d17f04329ff96",
+      "size_bytes": 45931,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/analysis_offline_semantic_subtype_screen_v8.py",
+        "creamem3/audit_lme_opctx_materializer_v1.py",
+        "creamem3/build_executor_v19.py",
+        "creamem3/experiments/full_budget_20260907/run_memeye_math.py",
+        "creamem3/experiments/iterative_memory_20260907/build_multichannel_round_v2.py",
+        "creamem3/experiments/iterative_memory_20260907/prepare_variants.py",
+        "creamem3/experiments/mec_transfer_20260906/run_memeye.py",
+        "creamem3/experiments/memeye_lite_ablation_20260923/run.py",
+        "creamem3/lme_clean_writer_v1.py",
+        "creamem3/lme_opctx_b1_v1.py",
+        "creamem3/lme_opctx_v1.py",
+        "creamem3/lme_opctx_v2.py",
+        "creamem3/lme_opctx_v2_b3_scaled_facts.py",
+        "creamem3/memeye_adapter_v9.py",
+        "creamem3/memeye_matched_ingest_v19.py",
+        "creamem3/memeye_mec50_offline_v1.py",
+        "creamem3/offline_operation_context_v8.py",
+        "creamem3/online_memory_v3.py",
+        "creamem3/online_memory_v4.py",
+        "creamem3/online_memory_v4_streaming.py",
+        "creamem3/online_operation_context_v8.py",
+        "creamem3/retrieval_ablation_v4.py",
+        "creamem3/run_conv26_v2.py",
+        "creamem3/run_lme_opctx100_v1.py",
+        "creamem3/run_lme_opctx100_v2.py",
+        "creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py",
+        "creamem3/run_memeye_mec50_direct_gemini_v1.py",
+        "creamem3/run_memeye_thinking_predict_fast_v19.py",
+        "creamem3/run_memeye_v9.py",
+        "creamem3/run_offline_operation_full_v8.py",
+        "creamem3/run_online_operation_full_v8.py",
+        "creamem3/run_semantic_context_full_v8.py",
+        "creamem3/semantic_context_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/lme_clean_selection_v1.py",
+      "destination": "research_snapshot/creamem3/lme_clean_selection_v1.py",
+      "sha256": "bd4aae9c0969651b84c2d8e976cb783c810dcfc934a4c401233761eaac7e5c0b",
+      "size_bytes": 13514,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_lme_clean100_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/lme_clean_writer_v1.py",
+      "destination": "research_snapshot/creamem3/lme_clean_writer_v1.py",
+      "sha256": "a2473201666ca1e5cf6219beff9d35f816e9b859bc6f841b1478a0499cbed3fc",
+      "size_bytes": 10969,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/run_lme_clean100_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/lme_opctx_b1_v1.py",
+      "destination": "research_snapshot/creamem3/lme_opctx_b1_v1.py",
+      "sha256": "b46372b798dd1224dc424e76b36a01bb6957da398fe35de9a9f9c717c8c36f81",
+      "size_bytes": 6719,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/lme_clean_writer_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/lme_opctx_v1.py",
+      "destination": "research_snapshot/creamem3/lme_opctx_v1.py",
+      "sha256": "d215cba1f6b77ac247414f8733a784dff22382a6d048e9eebb2ffdba77e08ffe",
+      "size_bytes": 37063,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/stages.py",
+        "creamem3/audit_lme_opctx_materializer_v1.py",
+        "creamem3/lme_opctx_v2.py",
+        "creamem3/run_lme_opctx100_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/lme_opctx_v2.py",
+      "destination": "research_snapshot/creamem3/lme_opctx_v2.py",
+      "sha256": "96819e68dee72d075fd9816d86dc22a2dbaec056df50523a7a9a90513aa503ba",
+      "size_bytes": 17400,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/lme_clean_writer_v1.py",
+        "creamem3/lme_opctx_b1_v1.py",
+        "creamem3/lme_opctx_v2_b3_scaled_facts.py",
+        "creamem3/run_lme_opctx100_v2.py",
+        "creamem3/run_lme_opctx400_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/lme_opctx_v2_b3_scaled_facts.py",
+      "destination": "research_snapshot/creamem3/lme_opctx_v2_b3_scaled_facts.py",
+      "sha256": "2cf9799512cd29f57cd643c07956f3ee7ab08e486d0857b31363915380731aa4",
+      "size_bytes": 17630,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/lme_clean_writer_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/locomo_all.py",
+      "destination": "research_snapshot/creamem3/locomo_all.py",
+      "sha256": "ad69f7caf637e58255e8356cd14a04b6972df93472f0dbe2449e19062b9cb0b2",
+      "size_bytes": 14794,
+      "selection": "static_dependency",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py",
+        "creamem3/analysis_offline_semantic_subtype_screen_v8.py",
+        "creamem3/experiments/locomo_g35lite_20260908/run.py",
+        "creamem3/experiments/locomo_online_only_20260909/run.py",
+        "creamem3/run_conv26_v2.py",
+        "creamem3/run_offline_operation_full_v8.py",
+        "creamem3/run_online_operation_full_v8.py",
+        "creamem3/run_semantic_context_full_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/memeye_adapter_v9.py",
+      "destination": "research_snapshot/creamem3/memeye_adapter_v9.py",
+      "sha256": "56dddf5f9e7f792ee9320e68c5c0eac4a770b33cded008ad362241bc30d9926c",
+      "size_bytes": 37284,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/build_executor_v19.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/writer.py",
+        "creamem3/memeye_matched_ingest_v19.py",
+        "creamem3/run_memeye_full_arch_matrix_v19.py",
+        "creamem3/run_memeye_v9.py"
+      ]
+    },
+    {
+      "source": "creamem3/memeye_g35_runtime_v19.py",
+      "destination": "research_snapshot/creamem3/memeye_g35_runtime_v19.py",
+      "sha256": "6f2155d52c69f465a29425b2eec74f2e0229b4629610894f6be310620539a7f9",
+      "size_bytes": 61564,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/memeye_visual_baselines_20260920/native.py",
+        "creamem3/memeye_official_embedding_batch_runtime_v19_1.py",
+        "creamem3/phase1_g35_caption_reliable_r3_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py",
+        "creamem3/run_memeye_mec50_direct_gemini_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/memeye_matched_ingest_v19.py",
+      "destination": "research_snapshot/creamem3/memeye_matched_ingest_v19.py",
+      "sha256": "1e10624ee8e90f4e557964b9227ca9eab4e9e6f6f00b90dd382788d1dada72ef",
+      "size_bytes": 30916,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/build_executor_v19.py",
+        "creamem3/run_memeye_full_arch_matrix_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py",
+        "creamem3/run_memeye_thinking_predict_fast_v19.py"
+      ]
+    },
+    {
+      "source": "creamem3/memeye_mec50_offline_v1.py",
+      "destination": "research_snapshot/creamem3/memeye_mec50_offline_v1.py",
+      "sha256": "97bed714c1a2b0f0eaa07608f79c2cc33d307dde3ed86c8125a8cb0c13ae2e1b",
+      "size_bytes": 47220,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/mec_transfer_20260906/run_memeye.py"
+      ]
+    },
+    {
+      "source": "creamem3/memeye_official_embedding_batch_runtime_v19_1.py",
+      "destination": "research_snapshot/creamem3/memeye_official_embedding_batch_runtime_v19_1.py",
+      "sha256": "bb782cbba5d24f08c13907f2a9fe386c8bcffa5e15f53b675b69818c4989298b",
+      "size_bytes": 43735,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/iterative_memory_20260907/projection_embeddings.py",
+        "creamem3/experiments/memeye_backbones_20260921/runtime.py"
+      ]
+    },
+    {
+      "source": "creamem3/official_g25_build_runtime_adapter_v19.py",
+      "destination": "research_snapshot/creamem3/official_g25_build_runtime_adapter_v19.py",
+      "sha256": "c04d8d16084e623faf1ee771ae91fe41e2518b57fc48cee22056c77819908a1f",
+      "size_bytes": 13226,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py"
+      ]
+    },
+    {
+      "source": "creamem3/official_g25_runtime_adapter_v19.py",
+      "destination": "research_snapshot/creamem3/official_g25_runtime_adapter_v19.py",
+      "sha256": "1880f0366bbad7db4ce03cd8a7d8e429ad67e78bba90a05a95a3ac5ff5476872",
+      "size_bytes": 14657,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/iterative_memory_20260907/query_projections.py",
+        "creamem3/experiments/iterative_memory_20260907/run_round.py",
+        "creamem3/experiments/memeye_baselines_20260920/run.py",
+        "creamem3/predict_executor_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_retry5_v19.py"
+      ]
+    },
+    {
+      "source": "creamem3/offline_context_v6.py",
+      "destination": "research_snapshot/creamem3/offline_context_v6.py",
+      "sha256": "d3547ff20b65dd350bb8aa3dcb070a2cb76c3917bcfbb0157a23fd4a3410f1d7",
+      "size_bytes": 19833,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/semantic_context_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/offline_operation_context_v8.py",
+      "destination": "research_snapshot/creamem3/offline_operation_context_v8.py",
+      "sha256": "5e29442776b85632b189d6c7e244a6311442455dfdd1ea56b2f0a8ae7302cd35",
+      "size_bytes": 10598,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_memeye_v9.py",
+        "creamem3/run_offline_operation_full_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/online_memory_v3.py",
+      "destination": "research_snapshot/creamem3/online_memory_v3.py",
+      "sha256": "054212657b635a099ac0ee7182740888e536cb8a3b1aaa4f61f50e22b9883d7a",
+      "size_bytes": 55872,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/build_executor_v19.py",
+        "creamem3/experiments/locomo_g35lite_20260908/run.py",
+        "creamem3/experiments/locomo_mgtm480_writer_20260909/run.py",
+        "creamem3/experiments/locomo_offline_20260908/offline_engine_v2.py",
+        "creamem3/experiments/locomo_online_only_20260909/run.py",
+        "creamem3/experiments/locomo_state_norerank_20260909/revision.py",
+        "creamem3/online_memory_v4.py",
+        "creamem3/online_memory_v4_streaming.py",
+        "creamem3/run_conv26_v2.py",
+        "creamem3/run_lme_opctx100_v1.py",
+        "creamem3/run_memeye_v9.py"
+      ]
+    },
+    {
+      "source": "creamem3/online_memory_v4.py",
+      "destination": "research_snapshot/creamem3/online_memory_v4.py",
+      "sha256": "2e0d31047791aa73eded1aa812653fcf3a9dfe659da9d0da11139fd297a6fb96",
+      "size_bytes": 41856,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/online_memory_v4_streaming.py",
+        "creamem3/run_lme_opctx100_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/online_memory_v4_streaming.py",
+      "destination": "research_snapshot/creamem3/online_memory_v4_streaming.py",
+      "sha256": "b4cf7bbd83c256ed0dba345719f575be732361f21ee97bbfe04f627beccdc139",
+      "size_bytes": 49941,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/online_operation_context_v8.py",
+      "destination": "research_snapshot/creamem3/online_operation_context_v8.py",
+      "sha256": "2a27168ff7073bee36b97ba97b9d1a772c5dabb0f6335786043b48ab1167cb34",
+      "size_bytes": 10397,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_random_links_20261113/run.py",
+        "analysis/opctx_random_links_20261113/test_random_links.py",
+        "analysis/opctx_random_links_20261114/math20_run.py",
+        "analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py",
+        "creamem3/audit_lme_opctx_materializer_v1.py",
+        "creamem3/experiments/locomo_g35lite_20260908/run.py",
+        "creamem3/experiments/locomo_online_only_20260909/run.py",
+        "creamem3/experiments/locomo_top5_budget_20260910/run.py",
+        "creamem3/lme_opctx_v1.py",
+        "creamem3/run_lme_opctx100_v1.py",
+        "creamem3/run_memeye_full_arch_matrix_v19.py",
+        "creamem3/run_memeye_v9.py",
+        "creamem3/run_online_operation_full_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/phase1_g35_caption_reliable_r3_v19.py",
+      "destination": "research_snapshot/creamem3/phase1_g35_caption_reliable_r3_v19.py",
+      "sha256": "ceb75d6ce98902f62878a4b6595cd44386636c014a1de1297c9df726783bbd31",
+      "size_bytes": 24673,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py"
+      ]
+    },
+    {
+      "source": "creamem3/predict_executor_v19.py",
+      "destination": "research_snapshot/creamem3/predict_executor_v19.py",
+      "sha256": "511c9c8f7ac54b3e323ecca16c1a5133b9cfdf75eb5e06aca8c48960b5c8ff81",
+      "size_bytes": 137521,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+        "creamem3/run_memeye_mec50_direct_gemini_v1.py",
+        "creamem3/run_memeye_thinking_predict_fast_v19.py"
+      ]
+    },
+    {
+      "source": "creamem3/prompts.py",
+      "destination": "research_snapshot/creamem3/prompts.py",
+      "sha256": "31d06ead4a3dbf478e3af928a2dd0012e7154da7db8c4b70753092624a7339cd",
+      "size_bytes": 20179,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_conv26_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/prompts_v2.py",
+      "destination": "research_snapshot/creamem3/prompts_v2.py",
+      "sha256": "c95290c9ccb7c559940995d856c454f141d668d62e8b4ba4a51a71c9180641a1",
+      "size_bytes": 7231,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py",
+        "creamem3/experiments/locomo_g35lite_20260908/run.py",
+        "creamem3/experiments/locomo_online_only_20260909/prompts.py",
+        "creamem3/frozen_sources/locomo81_graph_memory_v2.py",
+        "creamem3/graph_memory_v2.py",
+        "creamem3/online_memory_v3.py",
+        "creamem3/run_conv26_v2.py",
+        "creamem3/run_lme_opctx100_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/retrieval_ablation_v4.py",
+      "destination": "research_snapshot/creamem3/retrieval_ablation_v4.py",
+      "sha256": "cff3d328f9d1a1c0aaa2bbea28e2cc055e32a2b82c1fe480f1974d67c9f506e5",
+      "size_bytes": 26953,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/semantic_context_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_conv26_v2.py",
+      "destination": "research_snapshot/creamem3/run_conv26_v2.py",
+      "sha256": "2a0d0329be6ba5142bf38a6ade669d8120b999f3f112c4fb2d5d7bbe5296930e",
+      "size_bytes": 43869,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_semantic_context_full_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_lme_clean100_v1.py",
+      "destination": "research_snapshot/creamem3/run_lme_clean100_v1.py",
+      "sha256": "21492c744ffd20f13f4eac711000db54a941c1536634f3e229eca9c21d34007c",
+      "size_bytes": 10813,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/e2e/lme_e2e.py",
+        "analysis/opctx_reviewer_20261111/e2e/test_lme_e2e.py",
+        "creamem3/experiments/lme_remaining200_20260923/run.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_lme_opctx100_v1.py",
+      "destination": "research_snapshot/creamem3/run_lme_opctx100_v1.py",
+      "sha256": "69f5b5d006b29f2746384cf7b6028c4d5e707cdb187bc5a24c7f4958c3dfa37e",
+      "size_bytes": 80498,
+      "selection": "static_dependency",
+      "imported_by": [
+        "analysis/hybrid_rag_20261114/stages.py",
+        "creamem3/run_lme_opctx100_v2.py",
+        "creamem3/run_lme_opctx400_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_lme_opctx100_v2.py",
+      "destination": "research_snapshot/creamem3/run_lme_opctx100_v2.py",
+      "sha256": "b331c56345ca28e38da0fcdea08897c4d0216e6e94605388753103ac9c8c718a",
+      "size_bytes": 49526,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_lme_clean100_v1.py",
+        "creamem3/run_lme_opctx400_v2.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_lme_opctx400_v2.py",
+      "destination": "research_snapshot/creamem3/run_lme_opctx400_v2.py",
+      "sha256": "99a98f46f2db610fbeb6e599c2e35371807b53f0d257a016c3e0fd15bba4a8c9",
+      "size_bytes": 17846,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_lme_clean100_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_memeye_full_arch_matrix_v19.py",
+      "destination": "research_snapshot/creamem3/run_memeye_full_arch_matrix_v19.py",
+      "sha256": "cc78dc6c7d78229cfac2a2658578a6e59122a7b8bf4c8f491b2f2722ef9dacad",
+      "size_bytes": 76409,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/build_executor_v19.py",
+        "creamem3/phase1_g35_caption_reliable_r3_v19.py",
+        "creamem3/predict_executor_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+        "creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py",
+        "creamem3/run_memeye_mec50_direct_gemini_v1.py",
+        "creamem3/run_memeye_thinking_predict_fast_v19.py",
+        "creamem3/score_executor_v19.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+      "destination": "research_snapshot/creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+      "sha256": "0eb799cf1f37ae2d4d02a239affad97cd0b0e776b8fe0d0343c3a4e261a9eef0",
+      "size_bytes": 123955,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/iterative_memory_20260907/query_projections.py",
+        "creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py",
+        "creamem3/run_memeye_mec50_direct_gemini_v1.py",
+        "creamem3/run_memeye_thinking_predict_fast_v19.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py",
+      "destination": "research_snapshot/creamem3/run_memeye_isolated_full_arch_thinking512_low_v19.py",
+      "sha256": "aa7f5d1d9dd11fef799201b5e8032e63dc55067dec9e5e9936b8a6e6e496e104",
+      "size_bytes": 112746,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_memeye_mec50_direct_gemini_v1.py",
+        "creamem3/run_memeye_thinking_predict_fast_v19.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_memeye_mec50_direct_gemini_v1.py",
+      "destination": "research_snapshot/creamem3/run_memeye_mec50_direct_gemini_v1.py",
+      "sha256": "c92e8c3f5ea80e48d06a871d1d256723521ccf21eb1ca97e06db516f0ac3bf9b",
+      "size_bytes": 54678,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/full_budget_20260907/observation_order.py",
+        "creamem3/experiments/mec_transfer_20260906/run_memeye.py",
+        "creamem3/experiments/memeye_baselines_20260920/run.py",
+        "creamem3/experiments/memeye_evidence_20260914/core.py",
+        "creamem3/experiments/memeye_evidence_20260914/core_v2.py",
+        "creamem3/experiments/memeye_failure_online_20260914/audit.py",
+        "creamem3/experiments/memeye_failure_online_20260914/run.py",
+        "creamem3/experiments/memeye_failure_online_20260914/selection.py",
+        "creamem3/run_memeye_mec50_routing_only_raw_gemini_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_memeye_mec50_routing_only_raw_gemini_v1.py",
+      "destination": "research_snapshot/creamem3/run_memeye_mec50_routing_only_raw_gemini_v1.py",
+      "sha256": "6964147daa63058a196359ad58afe1eea2d93a924dfd542d81a7564b2202a76d",
+      "size_bytes": 15271,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/experiments/full_budget_20260907/observation_order.py",
+        "creamem3/experiments/mec_transfer_20260906/run_memeye.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_memeye_thinking_predict_fast_v19.py",
+      "destination": "research_snapshot/creamem3/run_memeye_thinking_predict_fast_v19.py",
+      "sha256": "c696c51cd71f730b235bbea796b1f05eb7178ffb5059ff07453b92dec745b205",
+      "size_bytes": 25734,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_memeye_mec50_direct_gemini_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_memeye_v9.py",
+      "destination": "research_snapshot/creamem3/run_memeye_v9.py",
+      "sha256": "774071ae2e0b331d2209a7fd2b06dc59e3c1f898c47d4343e340f3348a427767",
+      "size_bytes": 48828,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/focused_answer_reader_v11.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_offline_operation_full_v8.py",
+      "destination": "research_snapshot/creamem3/run_offline_operation_full_v8.py",
+      "sha256": "039c0e79cd3bc0eaf42021f9ab61d8fe119722fcf20465302567868769280798",
+      "size_bytes": 32957,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/analysis_offline_semantic_subtype_screen_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/run_online_operation_full_v8.py",
+      "destination": "research_snapshot/creamem3/run_online_operation_full_v8.py",
+      "sha256": "a52855d68993293e240dcd85b9b6a651ee1eeca32f58daffc97205491cd41254",
+      "size_bytes": 37304,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "creamem3/run_semantic_context_full_v8.py",
+      "destination": "research_snapshot/creamem3/run_semantic_context_full_v8.py",
+      "sha256": "6d5439ef12fb9807b49e00b08db4f759a31ca998bd2fc83f1e7f1cdd91a904d5",
+      "size_bytes": 37245,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_online_operation_full_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/score_executor_v19.py",
+      "destination": "research_snapshot/creamem3/score_executor_v19.py",
+      "sha256": "f84e07de6add0b1f1cf3944e45f23c305276bcb425079be05a82cade3d6565ed",
+      "size_bytes": 57806,
+      "selection": "static_dependency",
+      "imported_by": [
+        "creamem3/run_memeye_isolated_full_arch_retry5_v19.py",
+        "creamem3/run_memeye_mec50_direct_gemini_v1.py"
+      ]
+    },
+    {
+      "source": "creamem3/semantic_context_v8.py",
+      "destination": "research_snapshot/creamem3/semantic_context_v8.py",
+      "sha256": "b2e4816a9783dc4f8c19119afad7868230586b7f7a114a70ede06a7c2b877b7d",
+      "size_bytes": 18029,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/analysis_offline_semantic_subtype_screen_v8.py",
+        "creamem3/lme_opctx_v1.py",
+        "creamem3/offline_operation_context_v8.py",
+        "creamem3/online_operation_context_v8.py",
+        "creamem3/run_memeye_v9.py",
+        "creamem3/run_semantic_context_full_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/semantic_query_planner_v6.py",
+      "destination": "research_snapshot/creamem3/semantic_query_planner_v6.py",
+      "sha256": "daa68edab125d482dfafd94e050dabfc5c455077fd677f4549d6a4039bffbd36",
+      "size_bytes": 22214,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/offline_operation_context_v8.py",
+        "creamem3/online_operation_context_v8.py",
+        "creamem3/run_lme_opctx100_v1.py",
+        "creamem3/run_lme_opctx100_v2.py",
+        "creamem3/run_memeye_v9.py",
+        "creamem3/run_offline_operation_full_v8.py",
+        "creamem3/run_online_operation_full_v8.py",
+        "creamem3/strict_semantic_planner_v8.py"
+      ]
+    },
+    {
+      "source": "creamem3/strict_semantic_planner_v8.py",
+      "destination": "research_snapshot/creamem3/strict_semantic_planner_v8.py",
+      "sha256": "ea8ecdacb4107f1f46e7d6b84a25ee051bd44f7847381756e07c8cdb00263da4",
+      "size_bytes": 4236,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py",
+        "creamem3/experiments/locomo_g35lite_20260908/run.py",
+        "creamem3/run_lme_opctx100_v1.py",
+        "creamem3/run_lme_opctx100_v2.py"
+      ]
+    },
+    {
+      "source": "eval/gemini_client.py",
+      "destination": "research_snapshot/eval/gemini_client.py",
+      "sha256": "0222e860eccae9b0561038c27ca5aae439c6ea088bc0d8b71b1bddc4769612dd",
+      "size_bytes": 14942,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/semantic_query_planner_v6.py",
+        "eval/judge.py"
+      ]
+    },
+    {
+      "source": "eval/judge.py",
+      "destination": "research_snapshot/eval/judge.py",
+      "sha256": "6321417febf29eff7d97e07902f1cbf5a1e748d24d7868d27483e2fc2408fd90",
+      "size_bytes": 1459,
+      "selection": "entry_or_core",
+      "imported_by": []
+    },
+    {
+      "source": "eval/prompts.py",
+      "destination": "research_snapshot/eval/prompts.py",
+      "sha256": "6f941180646cef04e601579935c27a9dfbd30e02def91e43c16d2df93cd76959",
+      "size_bytes": 1183,
+      "selection": "entry_or_core",
+      "imported_by": [
+        "creamem3/experiments/locomo_g35lite_20260908/run.py",
+        "creamem3/experiments/locomo_online_only_20260909/audit.py",
+        "creamem3/experiments/locomo_online_only_20260909/run.py",
+        "eval/judge.py"
+      ]
+    },
+    {
+      "source": "creamem3/results_top40_fallback_repairs_v5/.full_top40_v5_r1_fallback_repair_r2.staging-lfq8z1l9/source_snapshot/creamem3/online_memory_v3.py",
+      "destination": "research_snapshot/creamem3/frozen_sources/locomo81_online_memory_v3.py",
+      "sha256": "3af38e30881fc6ce64d393c388c4594e1a9adbecb196136bbc306659f14f72b9",
+      "size_bytes": 49723,
+      "selection": "explicit_historical_source_relocation",
+      "imported_by": [
+        "analysis/opctx_reviewer_20261111/e2e/locomo_e2e.py"
+      ],
+      "note": "Bytes unchanged. Historical e2e scripts still name the original path; configure an explicit source mapping before running. Do not silently substitute current Online code."
+    }
+  ],
+  "excluded_entry_names": [
+    "lme_judge_diagnose.py",
+    "model_preflight.py",
+    "model_probe.py",
+    "secure_launch.py"
+  ],
+  "excluded_static_dependencies": [],
+  "external_import_names_including_stdlib": [
+    "__future__",
+    "argparse",
+    "ast",
+    "base64",
+    "benchmark",
+    "certifi",
+    "collections",
+    "concurrent",
+    "contextlib",
+    "copy",
+    "csv",
+    "dataclasses",
+    "datetime",
+    "dotenv",
+    "fcntl",
+    "filelock",
+    "functools",
+    "gemini_client",
+    "gzip",
+    "hashlib",
+    "http",
+    "httpx",
+    "importlib",
+    "inspect",
+    "io",
+    "itertools",
+    "json",
+    "jsonschema",
+    "judge",
+    "math",
+    "memeye_creamem_reader",
+    "memory_layer",
+    "mimetypes",
+    "msvcrt",
+    "nltk",
+    "numpy",
+    "openai",
+    "os",
+    "pathlib",
+    "pickle",
+    "prompts",
+    "psutil",
+    "pytest",
+    "queue",
+    "random",
+    "re",
+    "scipy",
+    "sentence_transformers",
+    "shutil",
+    "socket",
+    "sqlite3",
+    "ssl",
+    "statistics",
+    "string",
+    "subprocess",
+    "sys",
+    "tempfile",
+    "threading",
+    "time",
+    "torch",
+    "traceback",
+    "transport",
+    "types",
+    "typing",
+    "unicodedata",
+    "unittest",
+    "urllib",
+    "uuid",
+    "warnings",
+    "winreg",
+    "zipfile"
+  ],
+  "external_requirements": [
+    {
+      "id": "lme_mgtm_authorities",
+      "paths_relative_to_external_project": [
+        "release/CreaMem2/benchmarks/longmemeval/prompts.py",
+        "release/CreaMem2/benchmarks/longmemeval/memory.py",
+        "release/CreaMem2/benchmarks/longmemeval/clients.py",
+        "release/CreaMem2/benchmarks/longmemeval/run.py"
+      ],
+      "reason": "Original LME runners verify and dynamically load sibling-project prompt/client authorities.",
+      "included": false
+    },
+    {
+      "id": "memeye_mgtm_authorities",
+      "paths_relative_to_external_project": [
+        "multimodal/eval_memeye.py",
+        "multimodal/vendor_mem0_prompts_official.py",
+        "multimodal/memeye_creamem_reader.py"
+      ],
+      "reason": "Original MemEye prompt and reader authority files; redistribution terms not verified.",
+      "included": false
+    },
+    {
+      "id": "memeye_benchmark_vendor",
+      "reason": "Some imported authority helpers expect benchmark.dataset and benchmark-specific modules from MemEye. Vendor trees are intentionally omitted; upstream licenses remain applicable.",
+      "included": false
+    },
+    {
+      "id": "historical_artifact_manifests",
+      "reason": "Frozen runners check original result/config/prompt hashes, graph runner manifests, query projections and cached selections. They are source provenance, not bundled benchmark data or guaranteed fresh-run defaults.",
+      "included": false
+    },
+    {
+      "id": "benchmark_datasets_and_images",
+      "reason": "LoCoMo, LongMemEval-S and MemEye datasets/images must be obtained separately under their own terms.",
+      "included": false
+    }
+  ],
+  "runnability": "Source-only research archive, not an independent exact reproduction bundle. External authorities, historic artifact hashes, data paths and optional dependencies remain to be configured."
+}
